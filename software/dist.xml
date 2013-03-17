@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project name="Create distribution packages" default="dist_all">
+	
+	<property file="src/project.properties"/>
+	
+	<target name="dist_all" depends="dist_windows_app, dist_macosx_app, dist_linux32_app, dist_linux64_app">
+		</target>
+	
+	<!-- Create distribution package for windows32 -->
+	<target name="dist_windows_app">
+		<unzip src="build/windows/jre.zip" dest="build/windows" overwrite="false"/>
+		<delete file="dist/${dist.filename}_${app.version}_windows.zip"/>
+		<zip destfile="dist/${dist.filename}_${app.version}_windows.zip"
+		     basedir="build/windows"
+			 update="no"
+			 excludes="Launch4j/** PhotoduinoRemote.jar launch4j-config.xml *.bat *.ico *.zip"
+		/>
+		<delete dir="build/windows/java" />
+	</target>
+	
+	<!-- Create distribution package for macosx -->
+	<target name="dist_macosx_app">
+		<delete file="dist/${dist.filename}_${app.version}_macosx.dmg"/>
+		<exec executable="hdiutil">
+		    <arg value="create" />
+			<arg value="-ov"/>
+			<arg value="dist/${dist.filename}_${app.version}_macosx.dmg" />
+		    <arg value="-srcfolder" />
+			<arg value="build/macosx" />
+			<arg value="-volname" />
+			<arg value="${app.name}" />
+			<arg value="-fs"/>
+			<arg value="HFS+"/>    
+		  </exec>  
+	</target>
+	
+	<!-- Create distribution package for linux32 -->
+	<target name="dist_linux32_app">
+		<delete file="dist/${dist.filename}_${app.version}_linux32.zip"/>
+		<exec executable="zip" dir="build/linux32/">
+			<arg value="-x"/>
+			<arg value=".DS_Store"/>
+		    <arg value="-qR" />
+		    <arg value="../../dist/${dist.filename}_${app.version}_linux32.zip"/>
+		    <arg value="*"/>
+		    
+		</exec>
+	</target>
+	
+	<!-- Create distribution package for linux64 -->
+	<target name="dist_linux64_app">
+		<delete file="dist/${dist.filename}_${app.version}_linux64.zip"/>
+		<exec executable="zip" dir="build/linux64/">
+			<arg value="-x"/>
+			<arg value=".DS_Store"/>
+		    <arg value="-qR" />
+		    <arg value="../../dist/${dist.filename}_${app.version}_linux64.zip"/>
+		    <arg value="*"/>
+		</exec>
+	</target>
+</project>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project name="Automated builds" default="build_all">
+	<property file="src/project.properties"/>
+	
+	<target name="build_all" depends="build_osx_app, build_windows_app, build_linux32_app">
+	</target>
+	
+	
+	<!-- Build OSX application -->
+    <target name="build_osx_app">
+    	<delete dir="build/macosx/Photoduino Remote.app/Contents/Resources/Java"/>
+    	<mkdir dir="build/macosx/Photoduino Remote.app/Contents/Resources/Java"/>
+        <jar destfile="build/macosx/Photoduino Remote.app/Contents/Resources/Java/PhotoduinoRemote.jar">
+            <manifest>
+                <attribute name="Main-Class" value="com.photoduino.remote.AppWindow"/>
+            	<attribute name="Created-By" value="kalanda.com"/>
+            	<attribute name="Implementation-Version" value="${app.version}"/>
+                <attribute name="Class-Path" value=". RXTXcomm.jar swt.jar log4j-1.2.16.jar"/>
+            </manifest>
+            <fileset dir="bin"/>
+        </jar>
+        <copy file="lib/swt/swt-3.7.2-cocoa-macosx/swt.jar" todir="build/macosx/Photoduino Remote.app/Contents/Resources/Java"/>
+    	<copy file="lib/log4j-1.2.16.jar" todir="build/macosx/Photoduino Remote.app/Contents/Resources/Java"/>
+		<copy file="lib/rxtx/RXTXcomm.jar" todir="build/macosx/Photoduino Remote.app/Contents/Resources/Java"/>
+    	<copy file="lib/rxtx/native/librxtxSerial.jnilib" todir="build/macosx/Photoduino Remote.app/Contents/Resources/Java"/> 
+    	<copy file="LICENSE.txt" todir="build/macosx/"/>
+    </target>
+	
+	
+	<!-- Build windows application -->
+	<target name="build_windows_app">
+		<delete dir="build/windows/lib"/>
+		<mkdir dir="build/windows/lib"/>
+	    <jar destfile="build/windows/lib/PhotoduinoRemote.jar">
+	        <manifest>
+	            <attribute name="Main-Class" value="com.photoduino.remote.AppWindow"/>
+	        	<attribute name="Created-By" value="kalanda.com"/>
+	        	<attribute name="Implementation-Version" value="${app.version}"/>
+	            <attribute name="Class-Path" value=". RXTXcomm.jar swt.jar log4j-1.2.16.jar"/>
+	        </manifest>
+	        <fileset dir="bin"/>
+	    </jar>
+		<copy file="lib/swt/swt-3.7.2-win32-win32-x86/swt.jar" todir="build/windows/lib"/>
+		<copy file="lib/log4j-1.2.16.jar" todir="build/windows/lib"/>
+	    <copy file="lib/rxtx/RXTXcomm.jar" todir="build/windows/lib"/>	    
+		<copy file="lib/rxtx/native/rxtxSerial.dll" todir="build/windows/lib"/> 
+		<copy file="LICENSE.txt" todir="build/windows/"/>
+	</target>
+	
+	
+	<!-- Build Linux32 application -->
+	<target name="build_linux32_app">
+    
+		<delete dir="build/linux32/lib"/>
+		<mkdir dir="build/linux32/lib"/>
+		<jar destfile="build/linux32/lib/PhotoduinoRemote.jar">
+            <manifest>
+                <attribute name="Main-Class" value="com.photoduino.remote.AppWindow"/>
+            	<attribute name="Created-By" value="kalanda.com"/>
+            	<attribute name="Implementation-Version" value="${app.version}"/>
+                <attribute name="Class-Path" value=". RXTXcomm.jar swt.jar log4j-1.2.16.jar"/>
+            </manifest>
+            <fileset dir="bin"/>
+        </jar>
+		<copy file="lib/swt/swt-3.7.2-gtk-linux-x86/swt.jar" todir="build/linux32/lib"/>
+    	<copy file="lib/log4j-1.2.16.jar" todir="build/linux32/lib"/>
+    	<copy file="lib/rxtx/native/librxtxSerial.so" todir="build/linux32/lib"/> 
+		<copy file="lib/rxtx/RXTXcomm.jar" todir="build/linux32/lib"/>
+		<copy file="LICENSE.txt" todir="build/linux32/"/>
+    </target>
+	
+	<!-- Build Linux64 application -->
+		<target name="build_linux64_app">
+	    
+			<delete dir="build/linux64/lib"/>
+			<mkdir dir="build/linux64/lib"/>
+			<jar destfile="build/linux64/lib/PhotoduinoRemote.jar">
+	            <manifest>
+	                <attribute name="Main-Class" value="com.photoduino.remote.AppWindow"/>
+	            	<attribute name="Created-By" value="kalanda.com"/>
+	            	<attribute name="Implementation-Version" value="${app.version}"/>
+	                <attribute name="Class-Path" value=". RXTXcomm.jar swt.jar log4j-1.2.16.jar"/>
+	            </manifest>
+	            <fileset dir="bin"/>
+	        </jar>
+			<copy file="lib/swt/swt-3.7.2-gtk-linux-x86_64/swt.jar" todir="build/linux64/lib"/>
+	    	<copy file="lib/log4j-1.2.16.jar" todir="build/linux64/lib"/>
+	    	<copy file="lib/rxtx/native/librxtxSerial64.so" tofile="build/linux64/lib/librxtxSerial.so"/> 
+			<copy file="lib/rxtx/RXTXcomm.jar" todir="build/linux64/lib"/>
+			<copy file="LICENSE.txt" todir="build/linux64/"/>
+	    </target>
+
+	
+	
+</project>
