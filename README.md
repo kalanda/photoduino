@@ -7,3 +7,4 @@
     |_|  THE OPENSOURCE CAMERA CONTROLLER BASED ON ARDUINO                                                         
 
 
+http://photoduino.github.com
