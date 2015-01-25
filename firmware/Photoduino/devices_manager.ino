@@ -240,6 +240,19 @@ void display_printBoolean(boolean value) {
   lcd.print(")");
 }
 
+// prints the status of the intervalometer
+void display_printIntervaloStatus() {
+  lcd.setCursor(0,1);
+  display_printMessage(MSG_CYCLES_SHORT);
+  lcd.print(":");
+  lcd.print(intervalometerMode_currentCycle);
+  lcd.print(" ");
+  display_printMessage(MSG_COUNTDOWN);
+  lcd.print(":");
+  lcd.print(intervalometerMode_currentIntervalValue,10);
+  display_printUnits(intervalometerMode_intervalUnits);
+}
+
 // Print units value
 void display_printUnits(byte units){
   lcd.print("(");

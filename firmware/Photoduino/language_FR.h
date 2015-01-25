@@ -82,4 +82,6 @@ const prog_char PROGMEM MSG_DROPS_COUNT[] =                       "Nombre goutte
 const prog_char PROGMEM MSG_DROPS_DURATION[] =                    "Grosseur goutte";
 const prog_char PROGMEM MSG_DROPS_INTERVAL[] =                    "T. entre gouttes";
 const prog_char PROGMEM MSG_REMOTE_MODE[] =                       "Mode Remote";
+const prog_char PROGMEM MSG_CYCLES_SHORT[] =                      "C";
+const prog_char PROGMEM MSG_COUNTDOWN[] =                         "T";
 

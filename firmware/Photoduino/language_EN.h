@@ -79,4 +79,6 @@ const prog_char PROGMEM MSG_DROPS_COUNT[] =                       "Drops Count";
 const prog_char PROGMEM MSG_DROPS_DURATION[] =                    "Drops Duration";
 const prog_char PROGMEM MSG_DROPS_INTERVAL[] =                    "Drops Interval";
 const prog_char PROGMEM MSG_REMOTE_MODE[] =                       "Remote mode";
+const prog_char PROGMEM MSG_CYCLES_SHORT[] =                      "C";
+const prog_char PROGMEM MSG_COUNTDOWN[] =                         "T";
 

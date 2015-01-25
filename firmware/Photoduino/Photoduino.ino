@@ -359,6 +359,8 @@ unsigned int intervalometerMode_preCloseTime;
 byte         intervalometerMode_intervalUnits;
 unsigned int intervalometerMode_intervalValue;
 unsigned int intervalometerMode_numCycles;
+unsigned int intervalometerMode_currentCycle;
+unsigned int intervalometerMode_currentIntervalValue;
 
 // Sensor trigger mode config in ram
 byte         sensorTriggerMode_sensorType;

@@ -29,6 +29,8 @@ void runAs_intervalometer() {
    
    for(unsigned int cyclesCounter = 0; (cancelFlag==false && !(intervalometerMode_numCycles>0 && cyclesCounter >= intervalometerMode_numCycles));cyclesCounter++) { 
      
+     intervalometerMode_currentCycle = intervalometerMode_numCycles - cyclesCounter;
+     
      camera_autofocusBegin(intervalometerMode_autofocusTime); 
      camera_shutterBegin(system_cameraShutterLag); 
   
@@ -64,22 +66,46 @@ void waitInterval(){
 
 // Wait a time in seconds
 void delaySeconds(unsigned int value) {
-  for (unsigned int i = 0; i<value && !cancelFlag; i++) delay(1000); 
+  for (unsigned int i = 0; i<value && !cancelFlag; i++) {
+    if (intervalometerMode_intervalUnits == UNITS_SECS) {
+      intervalometerMode_currentIntervalValue = value - i;
+      display_printIntervaloStatus();
+    }
+  delay(1000); 
+  }
 }
 
 // Wait a time in minutes
 void delayMinutes(unsigned int value) {
-  for (unsigned int i = 0; i<value && !cancelFlag; i++) delaySeconds(60); 
+  for (unsigned int i = 0; i<value && !cancelFlag; i++) { 
+    if (intervalometerMode_intervalUnits == UNITS_MINS) {
+      intervalometerMode_currentIntervalValue = value - i;
+      display_printIntervaloStatus();
+    }
+  delaySeconds(60); 
+  }
 }
 
 // Wait a time in hours
-void delayHours(unsigned int value){
-  for (unsigned int i = 0; i<value && !cancelFlag; i++) delayMinutes(60); 
+void delayHours(unsigned int value) {
+  for (unsigned int i = 0; i<value && !cancelFlag; i++) { 
+    if (intervalometerMode_intervalUnits == UNITS_HOURS) {
+      intervalometerMode_currentIntervalValue = value - i;
+      display_printIntervaloStatus();
+    }
+  delayMinutes(60); 
+  }
 }
 
 // Wait a time in days
-void delayDays(unsigned int value){
-  for (unsigned int i = 0; i<value && !cancelFlag; i++) delayHours(24); 
+void delayDays(unsigned int value) {
+  for (unsigned int i = 0; i<value && !cancelFlag; i++) { 
+    if (intervalometerMode_intervalUnits == UNITS_DAYS) {
+      intervalometerMode_currentIntervalValue = value - i;
+      display_printIntervaloStatus();
+    }
+  delayHours(24); 
+  }
 }
 
 
