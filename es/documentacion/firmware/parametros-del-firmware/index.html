@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Parámetros del firmware | Firmware | Photoduino - El controlador abierto de cámaras fotográficas basado en Arduino</title>
+
+<link rel="stylesheet" href="../../../../assets/theme/language-selector.css" type="text/css" media="all" />
+
+<link rel="stylesheet" href="../../../../assets/theme/style.css" type="text/css" media="all" />
+
+
+
+<link rel='stylesheet' id='tss_css-css'  href='../../../../assets/theme/tss.css' type='text/css' media='all' />
+<link rel='stylesheet' id='style-css'  href='../../../../assets/theme/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='stbCSS-css'  href='../../../../assets/theme/wp-special-textboxes.css' type='text/css' media='all' />
+<link rel='stylesheet' id='page-list-style-css'  href='../../../../assets/theme/page-list.css' type='text/css' media='all' />
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js'></script>
+<script type='text/javascript' src='../../../../assets/theme/theme.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var tss_objects = {"tss_auto":"checked","tss_scaling":"0.75","tss_maps":"","tss_all":"","tss_time":"10","tss_mob":"","tss_images":"http:\/\/photoduino.github.io\/wp-content\/plugins\/slimbox-2-slideshow\/images.xml"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='../../../../assets/theme/tss.min.js'></script>
+<script type='text/javascript' src='../../../../assets/theme/comment-reply.min.js'></script>
+<script type='text/javascript' src='../../../../assets/theme/jquery.cookie.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpml_browser_redirect_params = {"pageLanguage":"es","languageUrls":{"es":"http:\/\/photoduino.github.io\/es\/documentacion\/firmware\/parametros-del-firmware\/","en":"http:\/\/photoduino.github.io\/documentation\/firmware\/firmware-parameters\/"},"cookie":{"name":"_icl_visitor_lang_js","domain":"photoduino.github.io","path":"\/","expiration":24}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='../../../../assets/theme/browser-redirect.js'></script>
+
+
+<script type="text/javascript">var icl_lang = 'es';var icl_home = 'http://photoduino.github.io/es/';</script>
+<script type="text/javascript" src="../../../../assets/theme/sitepress.js"></script>
+<meta name="generator" content="WPML ver:2.6.3 stt:2,1;0" />
+<link rel="alternate" hreflang="en_US" href="../../../../documentation/firmware/firmware-parameters/index.html" />
+
+</head>
+
+<body class="wordpress ltr es_ES child-theme y2013 m03 d18 h00 monday logged-out custom-background singular singular-page singular-page-1651 page-template-default layout-1c">
+
+
+	<div id="container">
+
+
+
+		<div id="header">
+
+
+			<div class="wrap">
+
+				<div id="branding">
+					<div id="site-title"><a href="../../../index.html" title="Photoduino" rel="home"><span>Photoduino</span></a></div>					<div id="site-description"><span>El controlador abierto de cámaras fotográficas basado en Arduino</span></div>				</div><!-- #branding -->
+
+
+				<ul id="languages_selector"><li><a class="" href="../../../../documentation/firmware/firmware-parameters/index.html">English</a></li><li><a class="active" href="index.html">Español</a></li></ul>
+			</div><!-- .wrap -->
+
+
+		</div><!-- #header -->
+
+
+
+
+	<div id="menu-secondary" class="menu-container">
+
+		<div class="wrap">
+
+
+			<div class="menu"><ul id="menu-secondary-items" class=""><li id="menu-item-757" class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor menu-item-757"><a href="../../../index.html">Documentación</a></li>
+<li id="menu-item-2015" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2015"><a href="https://sourceforge.net/projects/photoduino/files/" target="_blank">Descargas</a></li>
+<li id="menu-item-2038" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2038"><a href="https://github.com/photoduino/photoduino" target="_blank">Repositorio</a></li>
+
+</ul></div>
+
+		</div>
+
+	</div><!-- #menu-secondary .menu-container -->
+
+
+
+
+		<div id="main">
+
+			<div class="wrap">
+
+
+
+
+	<div id="content">
+
+		<div class="breadcrumb-trail breadcrumbs" itemprop="breadcrumb"><span class="trail-before">You are here:</span> <span class="trail-begin"><a href="../../../index.html" title="Photoduino" rel="home" class="trail-begin">Home</a></span> <span class="sep">/</span> <a href="../../../index.html" title="Documentación">Documentación</a> <span class="sep">/</span> <a href="../index.html" title="Firmware">Firmware</a> <span class="sep">/</span> <span class="trail-end">Parámetros del firmware</span></div>
+		<div class="hfeed">
+
+
+
+
+					<div id="post-1651" class="hentry page publish post-1 odd author-admin">
+
+
+						<h1 class="single-title entry-title">Parámetros del firmware</h1>
+						<div class="entry-content">
+							<p>Algunos valores de configuración pueden ser modificados solamente desde el código fuente del firmware antes de <a title="Instalando el firmware" href="../instalando-el-firmware/index.html">cargarlo en la placa Arduino</a>. En esta página te mostraré los importantes, pero puedes encontrar algunos más.</p>
+<p>Estos parámetros de configuración están en el archivo &#8220;Photoduino.ino&#8221; del código fuente del firmware y comienzan con un bloque como este:</p>
+<p><code>/* --------------------------------------------------- *<br />
+* CONFIGURATION VALUES: *<br />
+* You can set the next configuration values *<br />
+* before compile and upload this sketch *<br />
+* --------------------------------------------------- */</code></p>
+<h2>Idioma de los menus</h2>
+<p>Este parámetro define en que lenguaje deseas que estén escritos los menus. Básicamente es el nombre del archivo que contiene los textos a usar. Si quieres realizar tu propia traducción a otro idioma y compartirla con la comunidad, simplemente crea un archivo llamado &#8220;language_XX.h&#8221; donde &#8220;XX&#8221; es el código ISO del lenguaje.</p>
+<p><code>// Language of menus:<br />
+// - Set the language of menus in LCD<br />
+//<br />
+// Valid values:<br />
+// - "language_EN.h" for (English)<br />
+// - "language_ES.h" for (Spanish)<br />
+//<br />
+#define LANGUAGE_FILE "language_ES.h"</code></p>
+<h2>Retardo del obturador por defecto</h2>
+<p>Puedes modificar este valor también desde el interface, pero este parámetro en el código fuente será el valor por defecto del &#8220;Retardo de obturador&#8221; cuando borres la configuración del sistema en algún momento.</p>
+<p><code>//<br />
+// Default Camera Shutterlag:<br />
+// - The default value for shutterlag to load when you reset config.<br />
+// - Also configurable throught menus.<br />
+//<br />
+// Valid values:<br />
+// - Number between 0 and 59999 in miliseconds<br />
+// - Check your camera model at: http://photoduino.github.io/documentation/reference/cameras-shutterlag/<br />
+//<br />
+#define DEFAULT_SHUTTERLAG 100 // ms</code></p>
+<h2>Pulso de disparo del Flash</h2>
+<p>Cuando Photoduino dispara un flash, crea un pulso a través del pin de salida de Arduino conectado a un tiristor que dispara el flash. El ancho de este pulso es de 40 microsegundos por defecto, pero en algunos flashes tal vez necesites modificar este valor a uno más alto.</p>
+<p><code>//<br />
+// Pulse width for shooting flashes:<br />
+// - Time in microseconds of the pulse to shoot the flashes.<br />
+// - Increase this value if you have problems with your flash model.<br />
+//<br />
+// Valid values:<br />
+// - Number between 0 and 59999 in microseconds<br />
+//<br />
+#define DEVICES_FLASHES_SHOOTING_PULSE 40 // us</code></p>
+<p>Después de modificar cualquier valor debes volver a <a title="Instalando el firmware" href="../instalando-el-firmware/index.html">compilar y subir el firmware</a> a la placa Arduino.</p>
+													</div><!-- .entry-content -->
+
+						<div class="entry-meta"></div>
+
+					</div><!-- .hentry -->
+
+
+
+
+
+
+
+		</div><!-- .hfeed -->
+
+
+	</div><!-- #content -->
+
+
+
+
+
+			</div><!-- .wrap -->
+
+		</div><!-- #main -->
+
+
+
+
+
+		<!-- #footer -->
+
+
+	</div><!-- #container -->
+
+
+	<script type='text/javascript' src='../../../../assets/theme/jquery.ui.effect.min.js'></script>
+<script type='text/javascript' src='../../../../assets/theme/jquery.ui.effect-blind.min.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var stbUserOptions = {"mode":"css","cssOptions":{"roundedCorners":true,"mbottom":10,"imgHide":"http:\/\/photoduino.github.io\/wp-content\/plugins\/wp-special-textboxes\/images\/hide.png","imgShow":"http:\/\/photoduino.github.io\/wp-content\/plugins\/wp-special-textboxes\/images\/show.png","strHide":"Hide","strShow":"Show"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='../../../../assets/theme/wstb.min.js'></script>
+<script type='text/javascript' src='../../../../assets/theme/drop-downs.min.js'></script>
+
+</body>
+</html>

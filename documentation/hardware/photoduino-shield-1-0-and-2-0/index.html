@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Photoduino Shield 1.0 and 2.0 | Hardware | Photoduino - The opensource camera controller based on Arduino</title>
+
+<link rel="stylesheet" href="../../../assets/theme/language-selector.css" type="text/css" media="all" />
+
+<link rel="stylesheet" href="../../../assets/theme/style.css" type="text/css" media="all" />
+
+
+
+<link rel='stylesheet' id='tss_css-css'  href='../../../assets/theme/tss.css' type='text/css' media='all' />
+<link rel='stylesheet' id='style-css'  href='../../../assets/theme/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='stbCSS-css'  href='../../../assets/theme/wp-special-textboxes.css' type='text/css' media='all' />
+<link rel='stylesheet' id='page-list-style-css'  href='../../../assets/theme/page-list.css' type='text/css' media='all' />
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js'></script>
+<script type='text/javascript' src='../../../assets/theme/theme.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var tss_objects = {"tss_auto":"checked","tss_scaling":"0.75","tss_maps":"","tss_all":"","tss_time":"10","tss_mob":"","tss_images":"http:\/\/photoduino.github.io\/wp-content\/plugins\/slimbox-2-slideshow\/images.xml"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='../../../assets/theme/tss.min.js'></script>
+<script type='text/javascript' src='../../../assets/theme/comment-reply.min.js'></script>
+<script type='text/javascript' src='../../../assets/theme/jquery.cookie.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpml_browser_redirect_params = {"pageLanguage":"en","languageUrls":{"en":"http:\/\/photoduino.github.io\/documentation\/hardware\/photoduino-shield-1-0-and-2-0\/","es":"http:\/\/photoduino.github.io\/es\/documentacion\/hardware\/photoduino-shield-1-0-y-2-0\/"},"cookie":{"name":"_icl_visitor_lang_js","domain":"photoduino.github.io","path":"\/","expiration":24}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='../../../assets/theme/browser-redirect.js'></script>
+
+
+<script type="text/javascript">var icl_lang = 'en';var icl_home = 'http://photoduino.github.io/';</script>
+<script type="text/javascript" src="../../../assets/theme/sitepress.js"></script>
+
+<link rel="alternate" hreflang="es_ES" href="../../../es/documentacion/hardware/photoduino-shield-1-0-y-2-0/index.html" />
+
+</head>
+
+<body class="wordpress ltr en_US child-theme y2013 m03 d18 h00 monday logged-out custom-background singular singular-page singular-page-456 page-template-default layout-1c">
+
+
+	<div id="container">
+
+
+
+		<div id="header">
+
+
+			<div class="wrap">
+
+				<div id="branding">
+					<div id="site-title"><a href="../../../index.html" title="Photoduino" rel="home"><span>Photoduino</span></a></div>					<div id="site-description"><span>The opensource camera controller based on Arduino</span></div>				</div><!-- #branding -->
+
+
+				<ul id="languages_selector"><li><a class="active" href="index.html">English</a></li><li><a class="" href="../../../es/documentacion/hardware/photoduino-shield-1-0-y-2-0/index.html">Español</a></li></ul>
+			</div><!-- .wrap -->
+
+
+		</div><!-- #header -->
+
+
+
+
+	<div id="menu-secondary" class="menu-container">
+
+		<div class="wrap">
+
+
+			<div class="menu"><ul id="menu-secondary-items" class=""><li id="menu-item-704" class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor menu-item-704"><a href="../../../index.html">Documentation</a></li>
+<li id="menu-item-2016" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2016"><a href="https://sourceforge.net/projects/photoduino/files/" target="blank">Downloads</a></li>
+<li id="menu-item-2037" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2037"><a href="https://github.com/photoduino/photoduino" target="_blank">Repository</a></li>
+
+</ul></div>
+
+		</div>
+
+	</div><!-- #menu-secondary .menu-container -->
+
+
+
+
+		<div id="main">
+
+			<div class="wrap">
+
+
+
+
+	<div id="content">
+
+		<div class="breadcrumb-trail breadcrumbs" itemprop="breadcrumb"><span class="trail-before">You are here:</span> <span class="trail-begin"><a href="../../../index.html" title="Photoduino" rel="home" class="trail-begin">Home</a></span> <span class="sep">/</span> <a href="../../../index.html" title="Documentation">Documentation</a> <span class="sep">/</span> <a href="../index.html" title="Hardware">Hardware</a> <span class="sep">/</span> <span class="trail-end">Photoduino Shield 1.0 and 2.0</span></div>
+		<div class="hfeed">
+
+
+
+
+					<div id="post-456" class="hentry page publish post-1 odd author-admin">
+
+
+						<h1 class="single-title entry-title">Photoduino Shield 1.0 and 2.0</h1>
+						<div class="entry-content">
+							<p><strong><span style="color: #ff0000;">IMPORTANT NOTE: </span></strong>Photoduino Shield <strong>1.0 and 2.0 are not longer supported by us</strong>. May be you want to see the <a title="Photoduino Shield 3.0" href="../photoduino-shield-3-0/index.html">Photoduino Shield 3.0</a>.</p>
+<p>&#8220;Photoduino Shield&#8221; is the heart of the Photoduino project. This is a PCB that fits over an Arduino board so that it takes all input and output lines as well the power pins. It has all the necessary electronic components and provides connectors to connect the camera, flashes, sensors and a LCD display with two buttons for user interaction.</p>
+<ul>
+<li><a href="http://sourceforge.net/projects/photoduino/files/hardware/photoduino.shield.1.0.zip/download" target="_blank">Photoduino Shield 1.0</a> Is the best option to do at home because it is designed in a single layer.</li>
+<li><a href="http://sourceforge.net/projects/photoduino/files/hardware/photoduino.shield.2.0.zip/download" target="_blank">Photoduino Shield 2.0</a> Is designed in 2 layers, making it more difficult to perform at home, but has better placement of the connectors and is a little smaller.</li>
+</ul>
+<p>Both versions are fully compatible with the firmware and use the same components.</p>
+<p><img class="alignnone size-full wp-image-970" title="Photoduino Shield" alt="" src="../../../assets/uploads/2011/11/photoduino-shield-info.png" width="544" height="708" /></p>
+<h2>Parts list</h2>
+<table>
+<tbody>
+<tr>
+<th style="text-align: center;"><strong>IMAGE </strong></th>
+<th><strong>QTY</strong></th>
+<th style="text-align: center;"><strong>PART NAME</strong></th>
+</tr>
+<tr>
+<td><img class="alignnone size-full wp-image-511" title="photoduino-shield" alt="" src="../../../assets/uploads/2011/11/photoduino-shield.jpg" width="100" height="72" /></td>
+<td style="text-align: center;">1x</td>
+<td>Photoduino Shield PCB 1.0 or 2.0</td>
+</tr>
+<tr>
+<td><img class="alignnone size-full wp-image-512" title="arduino" alt="" src="../../../assets/uploads/2011/11/arduino.jpg" width="100" height="72" /></td>
+<td style="text-align: center;">1x</td>
+<td>Arduino Board (Duemilanove or UNO)</td>
+</tr>
+<tr>
+<td><img class="alignnone size-full wp-image-513" title="lm386" alt="" src="../../../assets/uploads/2011/11/lm386.jpg" width="100" height="72" /></td>
+<td style="text-align: center;">1x</td>
+<td>LM386 Operational Amplifier</td>
+</tr>
+<tr>
+<td><img class="alignnone size-full wp-image-514" title="tiristor" alt="" src="../../../assets/uploads/2011/11/tiristor.jpg" width="100" height="72" /></td>
+<td style="text-align: center;">4x</td>
+<td>SCR BT149D thyristor</td>
+</tr>
+<tr>
+<td><img class="alignnone size-full wp-image-515" title="capacitor-electrolitic" alt="" src="../../../assets/uploads/2011/11/capacitor-electrolitic.jpg" width="100" height="71" /></td>
+<td style="text-align: center;">1x</td>
+<td>10uF electrolitic capacitor</td>
+</tr>
+<tr>
+<td><img class="alignnone size-full wp-image-516" title="capacitor-ceramic" alt="" src="../../../assets/uploads/2011/11/capacitor-ceramic.jpg" width="100" height="72" /></td>
+<td style="text-align: center;">1x</td>
+<td>10nF ceramic capacitor</td>
+</tr>
+<tr>
+<td><img class="alignnone size-full wp-image-517" title="resistor" alt="" src="../../../assets/uploads/2011/11/resistor.jpg" width="100" height="71" /></td>
+<td style="text-align: center;">2x</td>
+<td>92 ohms 1/4w resistor</td>
+</tr>
+<tr>
+<td><img title="resistor" alt="" src="../../../assets/uploads/2011/11/resistor.jpg" width="100" height="71" /></td>
+<td style="text-align: center;">1x</td>
+<td>1M ohms 1/4w resistor</td>
+</tr>
+<tr>
+<td><img title="resistor" alt="" src="../../../assets/uploads/2011/11/resistor.jpg" width="100" height="71" /></td>
+<td style="text-align: center;">8x</td>
+<td>10K ohms 1/4w resistor</td>
+</tr>
+<tr>
+<td><img class="alignnone size-full wp-image-518" title="trimmer" alt="" src="../../../assets/uploads/2011/11/trimmer.jpg" width="100" height="72" /></td>
+<td style="text-align: center;">1x</td>
+<td>10K ohms vertical trimmer</td>
+</tr>
+<tr>
+<td><img class="alignnone size-full wp-image-519" title="piezoelectric-speaker" alt="" src="../../../assets/uploads/2011/11/piezoelectric-speaker.jpg" width="100" height="72" /></td>
+<td style="text-align: center;">1x</td>
+<td>piezoelectric buzzer</td>
+</tr>
+<tr>
+<td><img class="alignnone size-full wp-image-520" title="pinheader" alt="" src="../../../assets/uploads/2011/11/pinheader.jpg" width="100" height="72" /></td>
+<td style="text-align: center;">1x</td>
+<td>50 ways pinheader</td>
+</tr>
+<tr>
+<td><img class="alignnone size-full wp-image-521" title="con-ml10-male" alt="" src="../../../assets/uploads/2011/11/con-ml10-male.jpg" width="100" height="72" /></td>
+<td style="text-align: center;">1x</td>
+<td>ML16 (16 ways IDC connector) Molex PCB male</td>
+</tr>
+<tr>
+<td><img class="alignnone size-full wp-image-522" title="molex-2pin" alt="" src="../../../assets/uploads/2011/11/molex-2pin.jpg" width="100" height="72" /></td>
+<td style="text-align: center;">9x</td>
+<td>Molex PCB male 2 ways</td>
+</tr>
+<tr>
+<td><img class="alignnone size-full wp-image-524" title="molex-3pin" alt="" src="../../../assets/uploads/2011/11/molex-3pin.jpg" width="100" height="72" /></td>
+<td style="text-align: center;">1x</td>
+<td>Molex PCB male 3 ways</td>
+</tr>
+<tr>
+<td><img class="alignnone size-full wp-image-523" title="molex-2pin-female" alt="" src="../../../assets/uploads/2011/11/molex-2pin-female.jpg" width="100" height="72" /></td>
+<td style="text-align: center;">9x</td>
+<td>Molex PCB female 2 ways</td>
+</tr>
+<tr>
+<td><img class="alignnone size-full wp-image-525" title="molex-3pin-female" alt="" src="../../../assets/uploads/2011/11/molex-3pin-female.jpg" width="100" height="72" /></td>
+<td style="text-align: center;">1x</td>
+<td>Molex PCB female 3 ways</td>
+</tr>
+<tr>
+<td><img class="alignnone size-full wp-image-527" title="lcd" alt="" src="../../../assets/uploads/2011/11/lcd.jpg" width="100" height="71" /></td>
+<td style="text-align: center;">1x</td>
+<td>LCD display 2&#215;16 Hitachi HD44780 compatible</td>
+</tr>
+<tr>
+<td><img class="alignnone size-full wp-image-528" title="flat-cable" alt="" src="../../../assets/uploads/2011/11/flat-cable.jpg" width="100" height="71" /></td>
+<td style="text-align: center;">1x</td>
+<td>Flat cable 16 ways</td>
+</tr>
+<tr>
+<td><img class="alignnone size-full wp-image-529" title="con-ml10-female" alt="" src="../../../assets/uploads/2011/11/con-ml10-female.jpg" width="100" height="72" /></td>
+<td style="text-align: center;">1x</td>
+<td>ML16 (16 ways IDC connector) Molex PCB female</td>
+</tr>
+<tr>
+<td><img class="alignnone size-full wp-image-530" title="pushbuttons" alt="" src="../../../assets/uploads/2011/11/pushbuttons.jpg" width="100" height="72" /></td>
+<td style="text-align: center;">2x</td>
+<td>Box push buttons (SPNO)</td>
+</tr>
+<tr>
+<td><img class="alignnone size-full wp-image-531" title="con-jack-st" alt="" src="../../../assets/uploads/2011/11/con-jack-st.jpg" width="100" height="72" /></td>
+<td style="text-align: center;">3x</td>
+<td>Jack Stereo connector 3,5 mm female box</td>
+</tr>
+<tr>
+<td><img class="alignnone size-full wp-image-532" title="rca-female" alt="" src="../../../assets/uploads/2011/11/rca-female.jpg" width="100" height="72" /></td>
+<td style="text-align: center;">5x</td>
+<td>RCA connector female box</td>
+</tr>
+<tr>
+<td><img class="alignnone size-full wp-image-533" title="electret" alt="" src="../../../assets/uploads/2011/11/electret.jpg" width="100" height="71" /></td>
+<td style="text-align: center;">1x</td>
+<td>Electret microphone</td>
+</tr>
+<tr>
+<td><img class="alignnone size-full wp-image-534" title="photodiode" alt="" src="../../../assets/uploads/2011/11/photodiode.jpg" width="100" height="72" /></td>
+<td style="text-align: center;">1x</td>
+<td>Infrared Photodiode</td>
+</tr>
+<tr>
+<td><img class="alignnone size-full wp-image-535" title="ldr" alt="" src="../../../assets/uploads/2011/11/ldr.jpg" width="100" height="71" /></td>
+<td style="text-align: center;">1x</td>
+<td>LDR(Light Dependent Resistor)</td>
+</tr>
+<tr>
+<td><img class="alignnone size-full wp-image-536" title="irled" alt="" src="../../../assets/uploads/2011/11/irled.jpg" width="100" height="71" /></td>
+<td style="text-align: center;">1x</td>
+<td>Infrared LED 5mm</td>
+</tr>
+<tr>
+<td><img class="alignnone size-full wp-image-537" title="laser" alt="" src="../../../assets/uploads/2011/11/laser.jpg" width="100" height="72" /></td>
+<td style="text-align: center;">1x</td>
+<td>Low power red laser pointer (5 mW)</td>
+</tr>
+<tr>
+<td><img class="alignnone size-full wp-image-538" title="piezoelectric-speaker" alt="" src="../../../assets/uploads/2011/11/piezoelectric-speaker1.jpg" width="100" height="72" /></td>
+<td style="text-align: center;">1x</td>
+<td>Flat Piezo-electric speaker (for shock sensor)</td>
+</tr>
+<tr>
+<td><img class="alignnone size-full wp-image-539" title="con-rca-male" alt="" src="../../../assets/uploads/2011/11/con-rca-male.jpg" width="100" height="72" /></td>
+<td style="text-align: center;">5x</td>
+<td>RCA connector male aerial</td>
+</tr>
+<tr>
+<td><img class="alignnone size-full wp-image-540" title="con-jack-st-male" alt="" src="../../../assets/uploads/2011/11/con-jack-st-male.jpg" width="100" height="71" /></td>
+<td style="text-align: center;">1x</td>
+<td>Jack Stereo connector 3,5 mm male</td>
+</tr>
+<tr>
+<td><img class="alignnone size-full wp-image-541" title="con-jack-st-male" alt="" src="../../../assets/uploads/2011/11/con-jack-st-male1.jpg" width="100" height="71" /></td>
+<td style="text-align: center;">1x</td>
+<td>Jack Stereo connector 2,5 mm male<br />
+<a title="Camera remote connectors" href="../../reference/camera-remote-connectors/index.html">Check here your camera remote connector</a></td>
+</tr>
+<tr>
+<td><img class="alignnone size-full wp-image-542" title="con-jack-mono-male" alt="" src="../../../assets/uploads/2011/11/con-jack-mono-male.jpg" width="100" height="72" /></td>
+<td style="text-align: center;">4x</td>
+<td>Jack Mono connector 3,5 mm male</td>
+</tr>
+<tr>
+<td><img class="alignnone size-full wp-image-543" title="con-jack-mono-female" alt="" src="../../../assets/uploads/2011/11/con-jack-mono-female.jpg" width="100" height="72" /></td>
+<td style="text-align: center;">2x</td>
+<td>Jack Mono connector 3,5 mm female</td>
+</tr>
+</tbody>
+</table>
+<h2>External connections</h2>
+<p>Here you have the necessary information to make the connections between the Photoduino Shield board and each external components. Although between the board connector and each component has intermediate connectors, <strong>the important thing is to maintain connections correctly</strong> as shown in the following images.</p>
+<p><img class="alignnone size-full wp-image-549" title="connections-buttons" alt="" src="../../../assets/uploads/2011/11/connections-buttons.png" width="547" height="177" /></p>
+<p><img class="alignnone size-full wp-image-550" title="connections-camera" alt="" src="../../../assets/uploads/2011/11/connections-camera.png" width="547" height="217" /></p>
+<p><img class="alignnone size-full wp-image-551" title="connections-flashes" alt="" src="../../../assets/uploads/2011/11/connections-flashes.png" width="548" height="342" /></p>
+<p><img class="alignnone size-full wp-image-552" title="connections-infrared-barrier" alt="" src="../../../assets/uploads/2011/11/connections-infrared-barrier.png" width="547" height="192" /></p>
+<p><img class="alignnone size-full wp-image-553" title="connections-laser-barrier" alt="" src="../../../assets/uploads/2011/11/connections-laser-barrier.png" width="547" height="192" /></p>
+<p><img class="alignnone size-full wp-image-554" title="connections-shock-sensor" alt="" src="../../../assets/uploads/2011/11/connections-shock-sensor.png" width="547" height="189" /></p>
+<p><img class="alignnone size-full wp-image-555" title="connections-sound-sensor" alt="" src="../../../assets/uploads/2011/11/connections-sound-sensor.png" width="547" height="201" /></p>
+<h2>Some videos (spanish audio)</h2>
+<h3>Introduction</h3>
+<p>Subtitles: English and Spanish</p>
+<p><iframe width="928" height="522" src="http://www.youtube.com/embed/CpcDpFa7HAk?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
+<h3>How to solder the PCB</h3>
+<p><iframe width="928" height="522" src="http://www.youtube.com/embed/T5T_oKYnIv8?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
+<h3>How to prepare the LCD display</h3>
+<p><iframe width="928" height="522" src="http://www.youtube.com/embed/SVyYZIo9LQ4?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
+<h3>Construction</h3>
+<p><iframe width="928" height="522" src="http://www.youtube.com/embed/dLGanGxEgoU?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
+<h3>External connections</h3>
+<p><iframe width="928" height="522" src="http://www.youtube.com/embed/u4t1FX-YGJM?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
+<h3>How to adapt a Flash Hotshoe</h3>
+<p><iframe width="928" height="522" src="http://www.youtube.com/embed/V9Ro3BHiIrI?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
+<h3>How menus navigation works</h3>
+<p><iframe width="928" height="522" src="http://www.youtube.com/embed/4XlEmNWF9PE?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
+<h3>How interval mode works</h3>
+<p><iframe width="928" height="522" src="http://www.youtube.com/embed/aPCI4Fq0QjM?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
+<h3>How to connect the laser pointer</h3>
+<p><iframe width="928" height="522" src="http://www.youtube.com/embed/Tx9icGxb9rc?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
+													</div><!-- .entry-content -->
+
+						<div class="entry-meta"></div>
+
+					</div><!-- .hentry -->
+
+
+
+
+
+
+
+		</div><!-- .hfeed -->
+
+
+	</div><!-- #content -->
+
+
+
+
+
+			</div><!-- .wrap -->
+
+		</div><!-- #main -->
+
+
+
+
+
+		<!-- #footer -->
+
+
+	</div><!-- #container -->
+
+
+	<script type='text/javascript' src='../../../assets/theme/jquery.ui.effect.min.js'></script>
+<script type='text/javascript' src='../../../assets/theme/jquery.ui.effect-blind.min.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var stbUserOptions = {"mode":"css","cssOptions":{"roundedCorners":true,"mbottom":10,"imgHide":"http:\/\/photoduino.github.io\/wp-content\/plugins\/wp-special-textboxes\/images\/hide.png","imgShow":"http:\/\/photoduino.github.io\/wp-content\/plugins\/wp-special-textboxes\/images\/show.png","strHide":"Hide","strShow":"Show"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='../../../assets/theme/wstb.min.js'></script>
+<script type='text/javascript' src='../../../assets/theme/drop-downs.min.js'></script>
+
+</body>
+</html>

@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Build instructions: Solenoid Valve Interface | Photoduino Solenoid Valve Interface 1.0 | Photoduino - The opensource camera controller based on Arduino</title>
+
+<link rel="stylesheet" href="../../../../assets/theme/language-selector.css" type="text/css" media="all" />
+
+<link rel="stylesheet" href="../../../../assets/theme/style.css" type="text/css" media="all" />
+
+
+
+<link rel='stylesheet' id='tss_css-css'  href='../../../../assets/theme/tss.css' type='text/css' media='all' />
+<link rel='stylesheet' id='style-css'  href='../../../../assets/theme/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='stbCSS-css'  href='../../../../assets/theme/wp-special-textboxes.css' type='text/css' media='all' />
+<link rel='stylesheet' id='page-list-style-css'  href='../../../../assets/theme/page-list.css' type='text/css' media='all' />
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js'></script>
+<script type='text/javascript' src='../../../../assets/theme/theme.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var tss_objects = {"tss_auto":"checked","tss_scaling":"0.75","tss_maps":"","tss_all":"","tss_time":"10","tss_mob":"","tss_images":"http:\/\/photoduino.github.io\/wp-content\/plugins\/slimbox-2-slideshow\/images.xml"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='../../../../assets/theme/tss.min.js'></script>
+<script type='text/javascript' src='../../../../assets/theme/comment-reply.min.js'></script>
+<script type='text/javascript' src='../../../../assets/theme/jquery.cookie.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpml_browser_redirect_params = {"pageLanguage":"en","languageUrls":{"en":"http:\/\/photoduino.github.io\/documentation\/hardware\/photoduino-solenoid-valve-interface-1-0\/build-instructions-solenoid-valve-interface\/","es":"http:\/\/photoduino.github.io\/es\/documentacion\/hardware\/photoduino-solenoid-valve-interface-1-0\/instrucciones-de-montaje-solenoid-valve-interface\/"},"cookie":{"name":"_icl_visitor_lang_js","domain":"photoduino.github.io","path":"\/","expiration":24}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='../../../../assets/theme/browser-redirect.js'></script>
+
+
+<script type="text/javascript">var icl_lang = 'en';var icl_home = 'http://photoduino.github.io/';</script>
+<script type="text/javascript" src="../../../../assets/theme/sitepress.js"></script>
+
+<link rel="alternate" hreflang="es_ES" href="../../../../es/documentacion/hardware/photoduino-solenoid-valve-interface-1-0/instrucciones-de-montaje-solenoid-valve-interface/index.html" />
+
+</head>
+
+<body class="wordpress ltr en_US child-theme y2013 m03 d18 h00 monday logged-out custom-background singular singular-page singular-page-1831 page-template-default layout-1c">
+
+
+	<div id="container">
+
+
+
+		<div id="header">
+
+
+			<div class="wrap">
+
+				<div id="branding">
+					<div id="site-title"><a href="../../../../index.html" title="Photoduino" rel="home"><span>Photoduino</span></a></div>					<div id="site-description"><span>The opensource camera controller based on Arduino</span></div>				</div><!-- #branding -->
+
+
+				<ul id="languages_selector"><li><a class="active" href="index.html">English</a></li><li><a class="" href="../../../../es/documentacion/hardware/photoduino-solenoid-valve-interface-1-0/instrucciones-de-montaje-solenoid-valve-interface/index.html">Español</a></li></ul>
+			</div><!-- .wrap -->
+
+
+		</div><!-- #header -->
+
+
+
+
+	<div id="menu-secondary" class="menu-container">
+
+		<div class="wrap">
+
+
+			<div class="menu"><ul id="menu-secondary-items" class=""><li id="menu-item-704" class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor menu-item-704"><a href="../../../../index.html">Documentation</a></li>
+<li id="menu-item-2016" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2016"><a href="https://sourceforge.net/projects/photoduino/files/" target="blank">Downloads</a></li>
+<li id="menu-item-2037" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2037"><a href="https://github.com/photoduino/photoduino" target="_blank">Repository</a></li>
+
+</ul></div>
+
+		</div>
+
+	</div><!-- #menu-secondary .menu-container -->
+
+
+
+
+		<div id="main">
+
+			<div class="wrap">
+
+
+
+
+	<div id="content">
+
+		<div class="breadcrumb-trail breadcrumbs" itemprop="breadcrumb"><span class="trail-before">You are here:</span> <span class="trail-begin"><a href="../../../../index.html" title="Photoduino" rel="home" class="trail-begin">Home</a></span> <span class="sep">/</span> <a href="../../../../index.html" title="Documentation">Documentation</a> <span class="sep">/</span> <a href="../../index.html" title="Hardware">Hardware</a> <span class="sep">/</span> <a href="../index.html" title="Photoduino Solenoid Valve Interface 1.0">Photoduino Solenoid Valve Interface 1.0</a> <span class="sep">/</span> <span class="trail-end">Build instructions: Solenoid Valve Interface</span></div>
+		<div class="hfeed">
+
+
+
+
+					<div id="post-1831" class="hentry page publish post-1 odd author-admin">
+
+
+						<h1 class="single-title entry-title">Build instructions: Solenoid Valve Interface</h1>
+						<div class="entry-content">
+							<p>Making this circuit is so easy. You need the components of course, but also you need some tools like soldering iron, tin, cutting pliers and a pair of screwdrivers (with flat and star tips).</p>
+<div id='stb-box-2773' class='stb-warning_box' ><strong>IS VERY IMPORTANT</strong> know how to soldering well.<br />
+<a title="Soldering is Easy" href="../../../../assets/pdf/FullSolderComic_EN.pdf" target="_blank">Get this comic for easy learning &#8220;Soldering is Easy&#8221;</a></div>
+<h2>The PCB</h2>
+<p><img class="alignnone size-full wp-image-1832" title="IMG_4791" src="../../../../assets/uploads/2012/03/IMG_4791.jpg" alt="" width="600" height="400" /></p>
+<h2>Components</h2>
+<p>First, you have to solder the 1ok resistor (brown, black and orange bands).  Has no polarity and is only one. In the PCB is masked as R2.</p>
+<p><img class="alignnone size-full wp-image-1833" title="IMG_4792" src="../../../../assets/uploads/2012/03/IMG_4792.jpg" alt="" width="600" height="400" /></p>
+<p>Next step is solder the 1N4004 diode. It has a gray band at one end to indicate their polarity. You place it as shown in the next picture.</p>
+<p><img class="alignnone size-full wp-image-1834" title="IMG_4793" src="../../../../assets/uploads/2012/03/IMG_4793.jpg" alt="" width="600" height="400" /></p>
+<p>Now you have to solder the MOSFET IRL520. It has polarity. You place it as shown in the next picture.</p>
+<p><img class="alignnone size-full wp-image-1835" title="IMG_4803" src="../../../../assets/uploads/2012/03/IMG_4803.jpg" alt="" width="600" height="400" /></p>
+<p>Now solder the screw terminals.</p>
+<p><img class="alignnone size-full wp-image-1836" title="IMG_4804" src="../../../../assets/uploads/2012/03/IMG_4804.jpg" alt="" width="600" height="400" /></p>
+<p>And last, solder the RCA connector.</p>
+<p><img class="alignnone size-full wp-image-1837" title="IMG_4806" src="../../../../assets/uploads/2012/03/IMG_48061.jpg" alt="" width="600" height="400" /></p>
+<h2>Solenoid Valve wiring</h2>
+<p>To connect the solenoid valve, first you have to solder to a couple of wires. Solenoid valve has no polarity.</p>
+<p><img class="alignnone size-full wp-image-1838" title="IMG_4808" src="../../../../assets/uploads/2012/03/IMG_4808.jpg" alt="" width="600" height="400" /></p>
+<p><img class="alignnone size-full wp-image-1839" title="IMG_4809" src="../../../../assets/uploads/2012/03/IMG_4809.jpg" alt="" width="600" height="400" /></p>
+<p>Take apart a couple of heat shrink tubes to isolate the connections later.</p>
+<p><img class="alignnone size-full wp-image-1840" title="IMG_4812" src="../../../../assets/uploads/2012/03/IMG_4812.jpg" alt="" width="600" height="400" /></p>
+<p><img class="alignnone size-full wp-image-1841" title="IMG_4813" src="../../../../assets/uploads/2012/03/IMG_4813.jpg" alt="" width="600" height="400" /></p>
+<p><img class="alignnone size-full wp-image-1842" title="IMG_4816" src="../../../../assets/uploads/2012/03/IMG_4816.jpg" alt="" width="600" height="400" /></p>
+<p><img class="alignnone size-full wp-image-1843" title="IMG_4818" src="../../../../assets/uploads/2012/03/IMG_4818.jpg" alt="" width="600" height="400" /></p>
+<p><img class="alignnone size-full wp-image-1844" title="IMG_4822" src="../../../../assets/uploads/2012/03/IMG_4822.jpg" alt="" width="600" height="400" /></p>
+<p><img class="alignnone size-full wp-image-1845" title="IMG_4823" src="../../../../assets/uploads/2012/03/IMG_4823.jpg" alt="" width="600" height="400" /></p>
+<p><img class="alignnone size-full wp-image-1846" title="IMG_4824" src="../../../../assets/uploads/2012/03/IMG_4824.jpg" alt="" width="600" height="400" /></p>
+<h2>Solenoid valve and power supply connections</h2>
+<div id='stb-box-7407' class='stb-warning_box' >IT IS VERY IMPORTANT. You must be very careful with the polarity of the power. Inthe picture you can see that the positive supply (red) is connected to &#8220;+12 v power&#8221; and the negative to &#8220;GND power&#8221;. If instead of the battery socket you are using a DC power supply, determine the polarity  using a multimeter.</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><img class="alignnone size-full wp-image-1858" title="IMG_4830" src="../../../../assets/uploads/2012/03/IMG_48301.jpg" alt="" width="600" height="546" /></p>
+<p><img class="alignnone size-full wp-image-1847" title="IMG_4828" src="../../../../assets/uploads/2012/03/IMG_48281.jpg" alt="" width="600" height="400" /></p>
+<h2>Connection to Photoduino</h2>
+<p>The connection is made by a RCA cable to the DEVICE port of Photoduino.</p>
+<p><img class="alignnone size-full wp-image-1849" title="IMG_5235" src="../../../../assets/uploads/2012/03/IMG_52351.jpg" alt="" width="600" height="400" /></p>
+<h2>Assemble example</h2>
+<p>In the photo above you can see how to use the syringe as a reservoir of liquid using the plastic microtube to connect to the input of the solenoid. Although not included in the kit the other materials you can see int the photos, I put them as an example of how you can assemble the system.</p>
+<p><img class="alignnone size-full wp-image-1851" title="IMG_5241" src="../../../../assets/uploads/2012/03/IMG_52411.jpg" alt="" width="600" height="400" /></p>
+<p><img class="alignnone size-full wp-image-1852" title="IMG_5245" src="../../../../assets/uploads/2012/03/IMG_52451.jpg" alt="" width="600" height="400" /></p>
+<h2>Usage video</h2>
+<p>The next video show the whole system working.</p>
+<p><iframe width="928" height="522" src="http://www.youtube.com/embed/_P0VtPp_ZCg?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
+													</div><!-- .entry-content -->
+
+						<div class="entry-meta"></div>
+
+					</div><!-- .hentry -->
+
+
+
+
+
+
+
+		</div><!-- .hfeed -->
+
+
+	</div><!-- #content -->
+
+
+
+
+
+			</div><!-- .wrap -->
+
+		</div><!-- #main -->
+
+
+
+
+
+		<!-- #footer -->
+
+
+	</div><!-- #container -->
+
+
+	<script type='text/javascript' src='../../../../assets/theme/jquery.ui.effect.min.js'></script>
+<script type='text/javascript' src='../../../../assets/theme/jquery.ui.effect-blind.min.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var stbUserOptions = {"mode":"css","cssOptions":{"roundedCorners":true,"mbottom":10,"imgHide":"http:\/\/photoduino.github.io\/wp-content\/plugins\/wp-special-textboxes\/images\/hide.png","imgShow":"http:\/\/photoduino.github.io\/wp-content\/plugins\/wp-special-textboxes\/images\/show.png","strHide":"Hide","strShow":"Show"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='../../../../assets/theme/wstb.min.js'></script>
+<script type='text/javascript' src='../../../../assets/theme/drop-downs.min.js'></script>
+
+</body>
+</html>

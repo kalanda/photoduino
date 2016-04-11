@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Photoduino Solenoid Valve Interface 1.0 | Hardware | Photoduino - The opensource camera controller based on Arduino</title>
+
+<link rel="stylesheet" href="../../../assets/theme/language-selector.css" type="text/css" media="all" />
+
+<link rel="stylesheet" href="../../../assets/theme/style.css" type="text/css" media="all" />
+
+
+
+<link rel='stylesheet' id='tss_css-css'  href='../../../assets/theme/tss.css' type='text/css' media='all' />
+<link rel='stylesheet' id='style-css'  href='../../../assets/theme/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='stbCSS-css'  href='../../../assets/theme/wp-special-textboxes.css' type='text/css' media='all' />
+<link rel='stylesheet' id='page-list-style-css'  href='../../../assets/theme/page-list.css' type='text/css' media='all' />
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js'></script>
+<script type='text/javascript' src='../../../assets/theme/theme.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var tss_objects = {"tss_auto":"checked","tss_scaling":"0.75","tss_maps":"","tss_all":"","tss_time":"10","tss_mob":"","tss_images":"http:\/\/photoduino.github.io\/wp-content\/plugins\/slimbox-2-slideshow\/images.xml"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='../../../assets/theme/tss.min.js'></script>
+<script type='text/javascript' src='../../../assets/theme/comment-reply.min.js'></script>
+<script type='text/javascript' src='../../../assets/theme/jquery.cookie.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpml_browser_redirect_params = {"pageLanguage":"en","languageUrls":{"en":"http:\/\/photoduino.github.io\/documentation\/hardware\/photoduino-solenoid-valve-interface-1-0\/","es":"http:\/\/photoduino.github.io\/es\/documentacion\/hardware\/photoduino-solenoid-valve-interface-1-0\/"},"cookie":{"name":"_icl_visitor_lang_js","domain":"photoduino.github.io","path":"\/","expiration":24}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='../../../assets/theme/browser-redirect.js'></script>
+
+
+<script type="text/javascript">var icl_lang = 'en';var icl_home = 'http://photoduino.github.io/';</script>
+<script type="text/javascript" src="../../../assets/theme/sitepress.js"></script>
+
+<link rel="alternate" hreflang="es_ES" href="../../../es/documentacion/hardware/photoduino-solenoid-valve-interface-1-0/index.html" />
+
+</head>
+
+<body class="wordpress ltr en_US child-theme y2013 m03 d18 h00 monday logged-out custom-background singular singular-page singular-page-1825 page-template-default layout-1c">
+
+
+	<div id="container">
+
+
+
+		<div id="header">
+
+
+			<div class="wrap">
+
+				<div id="branding">
+					<div id="site-title"><a href="../../../index.html" title="Photoduino" rel="home"><span>Photoduino</span></a></div>					<div id="site-description"><span>The opensource camera controller based on Arduino</span></div>				</div><!-- #branding -->
+
+
+				<ul id="languages_selector"><li><a class="active" href="index.html">English</a></li><li><a class="" href="../../../es/documentacion/hardware/photoduino-solenoid-valve-interface-1-0/index.html">Español</a></li></ul>
+			</div><!-- .wrap -->
+
+
+		</div><!-- #header -->
+
+
+
+
+	<div id="menu-secondary" class="menu-container">
+
+		<div class="wrap">
+
+
+			<div class="menu"><ul id="menu-secondary-items" class=""><li id="menu-item-704" class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor menu-item-704"><a href="../../../index.html">Documentation</a></li>
+<li id="menu-item-2016" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2016"><a href="https://sourceforge.net/projects/photoduino/files/" target="blank">Downloads</a></li>
+<li id="menu-item-2037" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2037"><a href="https://github.com/photoduino/photoduino" target="_blank">Repository</a></li>
+
+</ul></div>
+
+		</div>
+
+	</div><!-- #menu-secondary .menu-container -->
+
+
+
+
+		<div id="main">
+
+			<div class="wrap">
+
+
+
+
+	<div id="content">
+
+		<div class="breadcrumb-trail breadcrumbs" itemprop="breadcrumb"><span class="trail-before">You are here:</span> <span class="trail-begin"><a href="../../../index.html" title="Photoduino" rel="home" class="trail-begin">Home</a></span> <span class="sep">/</span> <a href="../../../index.html" title="Documentation">Documentation</a> <span class="sep">/</span> <a href="../index.html" title="Hardware">Hardware</a> <span class="sep">/</span> <span class="trail-end">Photoduino Solenoid Valve Interface 1.0</span></div>
+		<div class="hfeed">
+
+
+
+
+					<div id="post-1825" class="hentry page publish post-1 odd author-admin">
+
+
+						<h1 class="single-title entry-title">Photoduino Solenoid Valve Interface 1.0</h1>
+						<div class="entry-content">
+							<p><img title="Photoduino Solenoid Valve Interface 1.0" alt="" src="../../../assets/uploads/2012/03/IMG_4806.jpg" width="600" height="593" /></p>
+<p>Photoduino’s firmware version 0.10 was released to include the ability to control a solenoid valve and  automatically generate drops with Photoduino.</p>
+<p>Solenoid valves  are typically powered through 12VDC and have a high current consumption, so we need this new circuit to be connected to Photoduino’s DEVICE port so it allows the connection to a solenoid valve and a 12VDC power supply.</p>
+<p>The control of the valve is performed by a Mosfet IRL520 logic transistor and the circuit also includes a 1N4004 diode to prevent the reverse current that is accumulated in the coil.</p>
+<p>The board is designed in a single sided PCB so it is quite easy to make at home, but it is also available for purchase as a kit which includes a solenoid valve, a 60 ml syringe and a 12VDC battery holder.</p>
+<p>The 12V needed to feed the solenoid valve can be supplied by the 8xAA (R6) battery holder included in the kit. You can also use a 12VDC with at least 500 mA current (not included).</p>
+<p><strong>Part list</strong></p>
+<table border="0" frame="VOID" rules="NONE" cellspacing="0">
+<thead>
+<tr>
+<th style="text-align: center;" align="RIGHT" width="43" height="19">Qty</th>
+<th align="LEFT" width="307">Part name</th>
+<th align="LEFT" width="97">Suggestion</th>
+</tr>
+</thead>
+<colgroup>
+<col width="43" />
+<col width="307" />
+<col width="97" /></colgroup>
+<tbody>
+<tr>
+<td style="text-align: center;" align="RIGHT" width="43" height="19">1</td>
+<td align="LEFT" width="307">PCB Solenoid valve interface 1.0</td>
+<td align="LEFT" width="97"><a href="http://sourceforge.net/projects/photoduino/files/hardware/photoduino.solenoid.valve.interface.1.0.zip/download" target="_blank">eaglecad files</a> <br>
+ <a href="https://oshpark.com/profiles/photoduino">order at oshpark.com</a></td>
+</tr>
+<tr>
+<td style="text-align: center;" align="RIGHT" width="43" height="19">1</td>
+<td align="LEFT" width="307">12v Solenoid Valve</td>
+<td align="LEFT" width="97"><a href="http://www.jameco.com/webapp/wcs/stores/servlet/Product_10001_10001_169835_-1" target="_blank">jameco</a></td>
+</tr>
+<tr>
+<td style="text-align: center;" align="RIGHT" height="18">1</td>
+<td align="LEFT">1N4004 Diode</td>
+<td align="LEFT"><a href="http://es.mouser.com/ProductDetail/Fairchild-Semiconductor/1N4004/?qs=sGAEpiMZZMtbRapU8LlZD6Aoap19JQAxY2gML8gEYQU=" target="_blank">mouser</a></td>
+</tr>
+<tr>
+<td style="text-align: center;" align="RIGHT" height="19">1</td>
+<td align="LEFT">10 Kohms resistor</td>
+<td align="LEFT"><a href="http://es.mouser.com/ProductDetail/KOA-Speer/CF1-4CT52R103J/?qs=/ha2pyFaduhcR7YWghnBNohs8vFPbHXcGsL5ejOIEA8FpelIXoecIg==" target="_blank">mouser</a></td>
+</tr>
+<tr>
+<td style="text-align: center;" align="RIGHT" height="18">2</td>
+<td align="LEFT">2 pins terminal block</td>
+<td align="LEFT"><a href="http://es.mouser.com/ProductDetail/TE-Connectivity/1546217-2/?qs=/ha2pyFadui5vPiFZWIRtlnll7gvt4j9cS3WxuW3x4U6b7MTIqipBA==" target="_blank">mouser</a></td>
+</tr>
+<tr>
+<td style="text-align: center;" align="RIGHT" height="18">1</td>
+<td align="LEFT">MOSFET IRL520</td>
+<td align="LEFT"><a href="http://es.mouser.com/ProductDetail/Vishay/IRL520PBF/?qs=%2fha2pyFadugoFc60oJQhYd0RYsxf419zr4vF1d%2frxafGYvd3gH3YYQ%3d%3d" target="_blank">mouser</a></td>
+</tr>
+<tr>
+<td style="text-align: center;" align="RIGHT" height="19">1</td>
+<td align="LEFT">8xAA battery socket</td>
+<td align="LEFT"><a href="http://es.mouser.com/ProductDetail/Eagle-Plastic-Devices/12BH382A-GR/?qs=%2fha2pyFadui3zNDXDd7sNGvpURQZ7stWJIrkaUzvJZs%3d">mouser</a></td>
+</tr>
+<tr>
+<td style="text-align: center;" align="RIGHT" height="19">1</td>
+<td align="LEFT">RCA pcb female jack</td>
+<td align="LEFT"><a href="http://www.sparkfun.com/products/8631" target="_blank">sparkfun</a></td>
+</tr>
+<tr>
+<td style="text-align: center;" align="RIGHT" height="18">1</td>
+<td align="LEFT">RCA male-to-male cable</td>
+<td align="LEFT"><a href="http://es.farnell.com/pro-signal/av00243/lead-phono-plg-plg-1-2m/dp/3712205?Ntt=3712205">farnell</a></td>
+</tr>
+<tr>
+<td style="text-align: center;" align="RIGHT" height="19">1</td>
+<td align="LEFT">50 ml syringe luer catheter without needle</td>
+<td align="LEFT"><a href="http://www.totclinic.com/jeringas-sin-aguja/62-jeringas-sin-aguja-de-50-ml-luer-cateter.html" target="_blank">totclinic</a></td>
+</tr>
+<tr>
+<td style="text-align: center;" align="RIGHT" height="18">1</td>
+<td align="LEFT">Doble wire 2&#215;0,50mm</td>
+<td align="LEFT"></td>
+</tr>
+<tr>
+<td style="text-align: center;" align="RIGHT" height="19">1</td>
+<td align="LEFT">Microtube 4mm x 0,25cm</td>
+<td align="LEFT"></td>
+</tr>
+</tbody>
+</table>
+<p><a title="Build instructions: Solenoid Valve Interface" href="build-instructions-solenoid-valve-interface/index.html">Check the Building Instructions</a></p>
+<p><strong>PCB Schematics</strong></p>
+<p>- <a href="http://sourceforge.net/projects/photoduino/files/hardware/photoduino.solenoid.valve.interface.1.0.zip/download" target="_blank">Download the Eaglecad files of the circuit</a></p>
+<p><img title="electrovalve-interface-schema" alt="" src="../../../assets/uploads/2012/03/electrovalve-interface-schema-600x492.png" width="600" height="492" /></p>
+<p><img title="electrovalve-interface-board" alt="" src="../../../assets/uploads/2012/03/electrovalve-interface-board-600x496.png" width="600" height="496" /></p>
+<p>Some pictures of the circuit.</p>
+<p>&nbsp;</p>
+<p><img title="Photoduino Solenoid Valve Interface 1.0" alt="" src="../../../assets/uploads/2012/03/IMG_4828.jpg" width="600" height="505" /></p>
+<p><img title="Photoduino Solenoid Valve Interface 1.0" alt="" src="../../../assets/uploads/2012/03/IMG_5235.jpg" width="600" height="400" /></p>
+<p><img title="Photoduino Solenoid Valve Interface 1.0" alt="" src="../../../assets/uploads/2012/03/IMG_5241.jpg" width="600" height="400" /></p>
+<p><img title="Photoduino Solenoid Valve Interface 1.0" alt="" src="../../../assets/uploads/2012/03/IMG_5245.jpg" width="600" height="400" /></p>
+<p><img title="Photoduino Solenoid Valve Interface 1.0" alt="" src="../../../assets/uploads/2012/03/IMG_5248.jpg" width="600" height="400" /></p>
+<p><img title="Photoduino Solenoid Valve Interface 1.0" alt="" src="../../../assets/uploads/2012/03/IMG_5491.jpg" width="600" height="400" /></p>
+<p>&nbsp;</p>
+													</div><!-- .entry-content -->
+
+						<div class="entry-meta"></div>
+
+					</div><!-- .hentry -->
+
+
+
+
+
+
+
+		</div><!-- .hfeed -->
+
+
+	</div><!-- #content -->
+
+
+
+
+
+			</div><!-- .wrap -->
+
+		</div><!-- #main -->
+
+
+
+
+
+		<!-- #footer -->
+
+
+	</div><!-- #container -->
+
+
+	<script type='text/javascript' src='../../../assets/theme/jquery.ui.effect.min.js'></script>
+<script type='text/javascript' src='../../../assets/theme/jquery.ui.effect-blind.min.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var stbUserOptions = {"mode":"css","cssOptions":{"roundedCorners":true,"mbottom":10,"imgHide":"http:\/\/photoduino.github.io\/wp-content\/plugins\/wp-special-textboxes\/images\/hide.png","imgShow":"http:\/\/photoduino.github.io\/wp-content\/plugins\/wp-special-textboxes\/images\/show.png","strHide":"Hide","strShow":"Show"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='../../../assets/theme/wstb.min.js'></script>
+<script type='text/javascript' src='../../../assets/theme/drop-downs.min.js'></script>
+
+</body>
+</html>

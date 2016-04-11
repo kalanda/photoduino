@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Installing the firmware | Firmware | Photoduino - The opensource camera controller based on Arduino</title>
+
+<link rel="stylesheet" href="../../../assets/theme/language-selector.css" type="text/css" media="all" />
+
+<link rel="stylesheet" href="../../../assets/theme/style.css" type="text/css" media="all" />
+
+
+<link rel='stylesheet' id='tss_css-css'  href='../../../assets/theme/tss.css' type='text/css' media='all' />
+<link rel='stylesheet' id='style-css'  href='../../../assets/theme/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='stbCSS-css'  href='../../../assets/theme/wp-special-textboxes.css' type='text/css' media='all' />
+<link rel='stylesheet' id='page-list-style-css'  href='../../../assets/theme/page-list.css' type='text/css' media='all' />
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js'></script>
+<script type='text/javascript' src='../../../assets/theme/theme.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var tss_objects = {"tss_auto":"checked","tss_scaling":"0.75","tss_maps":"","tss_all":"","tss_time":"10","tss_mob":"","tss_images":"http:\/\/photoduino.github.io\/wp-content\/plugins\/slimbox-2-slideshow\/images.xml"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='../../../assets/theme/tss.min.js'></script>
+<script type='text/javascript' src='../../../assets/theme/jquery.cookie.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpml_browser_redirect_params = {"pageLanguage":"en","languageUrls":{"en":"http:\/\/photoduino.github.io\/documentation\/firmware\/installing-the-firmware\/","es":"http:\/\/photoduino.github.io\/es\/documentacion\/firmware\/instalando-el-firmware\/"},"cookie":{"name":"_icl_visitor_lang_js","domain":"photoduino.github.io","path":"\/","expiration":24}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='../../../assets/theme/browser-redirect.js'></script>
+
+
+<script type="text/javascript">var icl_lang = 'en';var icl_home = 'http://photoduino.github.io/';</script>
+<script type="text/javascript" src="../../../assets/theme/sitepress.js"></script>
+
+<link rel="alternate" hreflang="es_ES" href="../../../es/documentacion/firmware/instalando-el-firmware/index.html" />
+
+</head>
+
+<body class="wordpress ltr en_US child-theme y2013 m03 d18 h00 monday logged-out custom-background singular singular-page singular-page-488 page-template-default layout-1c">
+
+
+	<div id="container">
+
+
+
+		<div id="header">
+
+
+			<div class="wrap">
+
+				<div id="branding">
+					<div id="site-title"><a href="../../../index.html" title="Photoduino" rel="home"><span>Photoduino</span></a></div>					<div id="site-description"><span>The opensource camera controller based on Arduino</span></div>				</div><!-- #branding -->
+
+
+				<ul id="languages_selector"><li><a class="active" href="index.html">English</a></li><li><a class="" href="../../../es/documentacion/firmware/instalando-el-firmware/index.html">Español</a></li></ul>
+			</div><!-- .wrap -->
+
+
+		</div><!-- #header -->
+
+
+
+
+	<div id="menu-secondary" class="menu-container">
+
+		<div class="wrap">
+
+
+			<div class="menu"><ul id="menu-secondary-items" class=""><li id="menu-item-704" class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor menu-item-704"><a href="../../../index.html">Documentation</a></li>
+<li id="menu-item-2016" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2016"><a href="https://sourceforge.net/projects/photoduino/files/" target="blank">Downloads</a></li>
+<li id="menu-item-2037" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2037"><a href="https://github.com/photoduino/photoduino" target="_blank">Repository</a></li>
+
+</ul></div>
+
+		</div>
+
+	</div><!-- #menu-secondary .menu-container -->
+
+
+
+
+		<div id="main">
+
+			<div class="wrap">
+
+
+
+
+	<div id="content">
+
+		<div class="breadcrumb-trail breadcrumbs" itemprop="breadcrumb"><span class="trail-before">You are here:</span> <span class="trail-begin"><a href="../../../index.html" title="Photoduino" rel="home" class="trail-begin">Home</a></span> <span class="sep">/</span> <a href="../../../index.html" title="Documentation">Documentation</a> <span class="sep">/</span> <a href="../index.html" title="Firmware">Firmware</a> <span class="sep">/</span> <span class="trail-end">Installing the firmware</span></div>
+		<div class="hfeed">
+
+
+
+
+					<div id="post-488" class="hentry page publish post-1 odd author-admin">
+
+
+						<h1 class="single-title entry-title">Installing the firmware</h1>
+						<div class="entry-content">
+							<h2>DOWNLOADING</h2>
+<ol>
+<li>Download the zip with the Arduino sketch of <a href="http://sourceforge.net/projects/photoduino/files/firmware/photoduino.shield.firmware.v.1.1.zip/download" target="_blank">latest Photoduino firmware</a></li>
+<li>Download the latest version of the <a href="http://arduino.cc/en/Main/Software" target="_blank">Arduino development environment</a></li>
+</ol>
+<h2>PREPARING</h2>
+<ol>
+<li><strong>Unzip the downloaded Arduino environment.</strong> You will find two things. The installer of the environment and the drivers for the FTDI chip that carries Arduino to connect to USB. You should install both.</li>
+<li><strong>Unzip the downloaded firmware.</strong> Is very important that all files are together in a folder called &#8220;Photoduino&#8221;, if not, rename it.</li>
+<li>You must <strong>connect the Arduino board</strong> to your computer via USB.</li>
+<li><strong>Open the Arduino environment</strong> you have installed.</li>
+<li>In the Arduino environment, <strong>go to menu &#8220;Tools-&gt;Board&#8221; and select your arduino model</strong>.</li>
+<li>In the Arduino environment, <strong>go to menu &#8220;Tools-&gt;Serial Port&#8221; and select the port of arduino</strong>.</li>
+</ol>
+<h2>COMPILING AND UPLOADING THE FIRMWARE</h2>
+<ol>
+<li>In the Arduino environment <strong>go to menu &#8220;File-&gt; Open &#8230;&#8221; and select the file &#8220;Photoduino.ino&#8221;</strong> in the unzipped firmware folder. This will open as tabs each of the firmware files in the folder.</li>
+<li>If you want to modify some <a title="Firmware parameters" href="../firmware-parameters/index.html">firmware parameter</a>, is the time to do it.</li>
+<li>Click the &#8220;Verify&#8221; or <strong>go to the &#8220;Sketches&#8221;&gt; Verify / Compile &#8230; &#8220;</strong></li>
+<li>In the black area at the bottom <strong>should not appear any error</strong>. Only white text. <strong>If the text is red are errors</strong> and you should check the name of the folder as explained above.</li>
+<li>If all goes fine, you can <strong>press the button &#8220;Upload&#8221; or go to the menu &#8220;File-&gt; Upload to IO board&#8221;</strong> and wait to finish.</li>
+<li>The environment <strong>will tell you about everything on the console</strong> (bottom box with black background)</li>
+</ol>
+<h2>FINISHING</h2>
+<ul>
+<li>If all goes well, you have the firmware loaded on your plate and you should hear one beep (if photoduino shield is connected to the arduino board).</li>
+<li>If not text appears on the LCD screen of photoduino, adjust the contrast potentiometer.</li>
+</ul>
+													</div><!-- .entry-content -->
+
+						<div class="entry-meta"></div>
+
+					</div><!-- .hentry -->
+
+
+
+
+
+
+
+		</div><!-- .hfeed -->
+
+
+	</div><!-- #content -->
+
+
+
+
+
+			</div><!-- .wrap -->
+
+		</div><!-- #main -->
+
+
+
+
+
+		<!-- #footer -->
+
+
+	</div><!-- #container -->
+
+
+	<script type='text/javascript' src='../../../assets/theme/jquery.ui.effect.min.js'></script>
+<script type='text/javascript' src='../../../assets/theme/jquery.ui.effect-blind.min.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var stbUserOptions = {"mode":"css","cssOptions":{"roundedCorners":true,"mbottom":10,"imgHide":"http:\/\/photoduino.github.io\/wp-content\/plugins\/wp-special-textboxes\/images\/hide.png","imgShow":"http:\/\/photoduino.github.io\/wp-content\/plugins\/wp-special-textboxes\/images\/show.png","strHide":"Hide","strShow":"Show"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='../../../assets/theme/wstb.min.js'></script>
+<script type='text/javascript' src='../../../assets/theme/drop-downs.min.js'></script>
+
+</body>
+</html>
