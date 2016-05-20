@@ -139,6 +139,9 @@
  *                        You don't need to modify the code below this lines                   * 
  * ------------------------------------------------------------------------------------------- */
 
+// Fix for Arduino environment
+#define prog_char char PROGMEM
+
 // Signature and version codes 
 #define SIGNATURE_CODE1             29 // day 
 #define SIGNATURE_CODE2             5  // month
