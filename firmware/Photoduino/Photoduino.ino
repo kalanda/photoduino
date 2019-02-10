@@ -326,6 +326,7 @@
 #include <LiquidCrystal.h> // For LCD Display use 
 #include <EEPROM.h>        // For persistent config 
 #include "FirmataLite.h"   // For remote control throught USB
+#include "Photoduino.h"    // Function prototypes
 #include LANGUAGE_FILE     // Messages
 
 // LiquidCrystal LCD control object instance
