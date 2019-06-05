@@ -7,8 +7,7 @@ title: Software Photoduino Remote
 
 Con este  software, podrás controlar y configurar desde tu ordenador el funcionamiento de Photoduino conectándolo por USB. Cada parámetro de configuración que modifiques desde el ordenador se guardará directamente en la memoria de Photoduino, de forma que si te desconectas del ordenador, Photoduino seguirá configurado de la misma forma, y lo mismo al revés.
 
-**IMPORTANTE:**
-Para utilizar este software, es necesario instalar [el firmware](../firmware/instalando-el-firmware/ "Instalando el firmware") en vuestra placa.
+**IMPORTANTE:** Para utilizar este software, es necesario instalar [el firmware](../firmware/instalando-el-firmware/ "Instalando el firmware") en vuestra placa.
 
 El software funciona en Windows, Mac y Linux, por lo que solamente tienes que descargar la versión adecuada para tu sistema operativo y seguir las indicaciones para empezar a funcionar.
 

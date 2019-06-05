@@ -7,7 +7,7 @@ title: Photoduino Remote Software
 
 With this software you can set and control from your computer all the functions inside Photoduino using a USB cable. Every parameter that you set from the computer will be saved in the Photoduino memory, then if you disconnect Photoduino of the computer, all settings will remains. The same in the other way.
 
-**IMPORTANT:** To use this software, you have to install [the firmware](../firmware/installing-the-firmware/ "Installing the firmware") in your board**
+**IMPORTANT:** To use this software, you have to install [the firmware](../firmware/installing-the-firmware/ "Installing the firmware") in your board
 
 The remote software works on Windows, Mac and Linux. You only have to download the right version for your operating system and follow the instructions to start using it.
 
