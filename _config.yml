@@ -3,10 +3,12 @@ description: The opensource camera controller based on Arduino
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://photoduino.com" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: pretty
-
+theme: jekyll-theme-cayman
 markdown: kramdown
 plugins:
   - jekyll-sitemap
 
 sass:
   style: compressed
+
+livereload: true

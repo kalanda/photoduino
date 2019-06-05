@@ -17,7 +17,7 @@ The 12V needed to feed the solenoid valve can be supplied by the 8xAA (R6) batte
 
 ## Part list
 
-<table border="0" frame="VOID" rules="NONE" cellspacing="0">
+<table>
 <thead>
 <tr>
 <th style="text-align: center;" align="RIGHT" width="43" height="19">Qty</th>

@@ -1,15 +1,20 @@
 <nav>
-  <div class="wrapper">
-    <ul>
-      <li>
-        <a href="/">Documentation</a>
-      </li>
-      <li>
-        <a href="https://sourceforge.net/projects/photoduino/files/" target="blank">Downloads</a>
-      </li>
-      <li>
-        <a href="https://github.com/kalanda/photoduino" target="_blank">Repository</a>
-      </li>
-    </ul>
-  </div>
+  <ul>
+    <li>
+      <a href="/">Documentation</a>
+    </li>
+    <li>
+      <a href="https://sourceforge.net/projects/photoduino/files/" target="blank">Downloads</a>
+    </li>
+    <li>
+      <a href="https://github.com/kalanda/photoduino" target="_blank">Repository</a>
+    </li>
+    <li>
+    {% if page.lang == 'es' %}
+      <a class="language" href="/">English version</a>
+    {% else %}
+      <a class="language" href="/es">Versión en español</a>
+    {% endif %}
+    </li>
+  </ul>
 </nav>

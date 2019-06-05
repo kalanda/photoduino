@@ -39,7 +39,7 @@ You can download original [Eaglecad files](http://sourceforge.net/projects/photo
 
 ## Part list
 
-<table border="0" frame="VOID" rules="NONE" cellspacing="0">
+<table>
 <thead>
 <tr>
 <th align="CENTER">Qty</th>
