@@ -10,7 +10,10 @@ layout: default
 
 Photoduino is the open source camera controller based on the Arduino platform which you can use to automatically take pictures with your DSLR camera.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/jCdz2PqvwS0" frameborder="0" allowfullscreen=""></iframe>
+<div class="video-container">
+<iframe src="https://www.youtube.com/embed/jCdz2PqvwS0" 
+frameborder="0" allowfullscreen class="video"></iframe>
+</div>
 
 ## What kind of pictures can take?
 

@@ -10,7 +10,10 @@ lang: es
 
 Photoduino es el controlador abierto de cámaras fotográficas basado en la plataforma Arduino que puedes usar para tomar fotografías automáticamente con tu cámara DSLR o Réflex digital.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/jCdz2PqvwS0" frameborder="0" allowfullscreen=""></iframe>
+<div class="video-container">
+<iframe src="https://www.youtube.com/embed/jCdz2PqvwS0" 
+frameborder="0" allowfullscreen class="video"></iframe>
+</div>
 
 ## ¿Qué tipo de fotografías puede tomar?
 
