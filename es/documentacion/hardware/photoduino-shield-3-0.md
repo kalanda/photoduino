@@ -39,7 +39,7 @@ Puedes descargar los archivos originales en [formato Eaglecad](http://sourceforg
 
 ## Lista de componentes
 
-<table border="0" frame="VOID" rules="NONE" cellspacing="0">
+<table>
 <thead>
 <tr>
 <th align="CENTER">Cantidad</th>

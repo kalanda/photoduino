@@ -17,7 +17,7 @@ La alimentación de 12v puede realizarse mediante el portabaterias de 8 pilas de
 
 ## Lista de componentes
 
-<table border="0" frame="VOID" rules="NONE" cellspacing="0">
+<table>
 <thead>
 <tr>
 <th style="text-align: center;" align="RIGHT" width="43" height="19">Cantidad</th>

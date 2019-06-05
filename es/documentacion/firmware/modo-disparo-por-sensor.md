@@ -126,7 +126,7 @@ El “Ciclo de vida de ejecución no muestra esta funcionalidad de “Gotas”, 
 
 Estos parámetros son usados solamente si una electroválvula está conectada al puerto DEVICE y  el tipo de dispositivo está configurado como “Electroválvula” en la “[Configuración del sistema](../configuracion-de-sistema/ "Configuración de sistema")“.
 
-<table border="0">
+<table>
 <thead>
 <tr>
 <th style="width: 100px;">Parámetro</th>
