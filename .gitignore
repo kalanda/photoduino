@@ -1,0 +1,6 @@
+_site
+.sass-cache
+.jekyll-metadata
+.vscode
+.DS_Store*
+Thumbs.db
