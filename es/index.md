@@ -15,8 +15,9 @@ Photoduino es el controlador abierto de cámaras fotográficas basado en la plat
 frameborder="0" allowfullscreen class="video"></iframe>
 </div>
 
+
 <div class="video-container">
-<iframe src="https://www.youtube.com/watch?v=E_mhEKf3QEs" 
+<iframe src="https://www.youtube.com/embed/E_mhEKf3QEs" 
 frameborder="0" allowfullscreen class="video"></iframe>
 </div>
 
