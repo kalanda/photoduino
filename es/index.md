@@ -15,6 +15,11 @@ Photoduino es el controlador abierto de cámaras fotográficas basado en la plat
 frameborder="0" allowfullscreen class="video"></iframe>
 </div>
 
+<div class="video-container">
+<iframe src="https://www.youtube.com/watch?v=E_mhEKf3QEs" 
+frameborder="0" allowfullscreen class="video"></iframe>
+</div>
+
 ## ¿Qué tipo de fotografías puede tomar?
 
 Su proposito principal es servir como apoyo técnico a la toma de fotografías de alta velocidad, pero también puedes usarlo como intervalómetro para hacer videos “Timelapse” o para la fotografía de animales o insectos. Echa un vistazo a las imágenes de ejemplo en [Flickr](http://www.flickr.com/groups/photoduino/pool/) y en [Instagram](https://www.instagram.com/explore/tags/photoduino/).

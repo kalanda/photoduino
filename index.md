@@ -15,6 +15,11 @@ Photoduino is the open source camera controller based on the Arduino platform 
 frameborder="0" allowfullscreen class="video"></iframe>
 </div>
 
+<div class="video-container">
+<iframe src="https://www.youtube.com/watch?v=E_mhEKf3QEs" 
+frameborder="0" allowfullscreen class="video"></iframe>
+</div>
+
 ## What kind of pictures can take?
 
 Its main purpose is to serve as technical support for shooting high speed photos, but you can use as intervalometer to make  ”Timelapse” videos or for animals or insects photography. Check the examples at [Flickr](http://www.flickr.com/groups/photoduino/pool/) and [Instagram](https://www.instagram.com/explore/tags/photoduino/).

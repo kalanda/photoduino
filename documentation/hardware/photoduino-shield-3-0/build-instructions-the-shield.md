@@ -5,7 +5,7 @@ title: "Build instructions: The shield"
 The first thing so we will start to assemble Photoduino is the shield. You need the components of course, but also you need some tools like soldering iron, tin, cutting pliers and a pair of screwdrivers (with flat and star tips).
 
 **IS VERY IMPORTANT** know how to soldering well.[  
-Get this comic for easy learning “Soldering is Easy”](../../../../assets/pdf/FullSolderComic_EN.pdf "Soldering is Easy")
+Get this comic for easy learning "Soldering is Easy"](https://kalanda.github.io/photoduino/assets/pdf/FullSolderComic_EN.pdf)
 
 ## The PCB
 

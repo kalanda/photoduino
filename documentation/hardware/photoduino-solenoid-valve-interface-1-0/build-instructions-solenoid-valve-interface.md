@@ -5,8 +5,8 @@ title: Build instructions of solenoid valve interface
 
 Making this circuit is so easy. You need the components of course, but also you need some tools like soldering iron, tin, cutting pliers and a pair of screwdrivers (with flat and star tips).
 
-**IS VERY IMPORTANT** know how to soldering well.  
-[Get this comic for easy learning “Soldering is Easy”](../../../../assets/pdf/FullSolderComic_EN.pdf "Soldering is Easy")
+**IS VERY IMPORTANT** know how to soldering well.[  
+Get this comic for easy learning "Soldering is Easy"](https://kalanda.github.io/photoduino/assets/pdf/FullSolderComic_EN.pdf)
 
 ## The PCB
 

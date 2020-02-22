@@ -5,8 +5,7 @@ title: Instrucciones de montaje Solenoid Valve Interface
 ---
 El montaje de este circuito es muy sencillo. Para realizar el montaje necesitarás además de todos los componentes, un soldador, estaño, un alicate de corte y un par de destornilladores (punta plana y estrella).
 
-**ES MUY IMPORTANTE** saber soldar correctamente.[  
-](http://photoduino.com/wp-content/uploads/2012/01/FullSolderComic_EN.pdf)[Descárgate este comic para aprender a soldar facilmente “Soldar es fácil”](../../../../../assets/pdf/FullSolderComic_ES.pdf "Soldar es fácil")
+**ES MUY IMPORTANTE** saber soldar correctamente.[Descárgate este comic para aprender a soldar facilmente “Soldar es fácil”](https://kalanda.github.io/photoduino/assets/pdf/FullSolderComic_ES.pdf)
 
 ## La PCB
 
