@@ -1,7 +1,7 @@
 <nav>
   <ul>
     <li>
-      <a href="/">Documentation</a>
+      <a href="{{ site.url }}">Documentation</a>
     </li>
     <li>
       <a href="https://sourceforge.net/projects/photoduino/files/" target="blank">Downloads</a>
@@ -11,9 +11,9 @@
     </li>
     <li>
     {% if page.lang == 'es' %}
-      <a class="language" href="/">English version</a>
+      <a class="language" href="{{ site.url }}">English version</a>
     {% else %}
-      <a class="language" href="/es">Versión en español</a>
+      <a class="language" href="{{ site.url }}es">Versión en español</a>
     {% endif %}
     </li>
   </ul>
