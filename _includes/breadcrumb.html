@@ -6,7 +6,7 @@
       <a href="/">Home</a>
     {% elsif crumb == 'documentacion' %}
     {% elsif crumb == 'es' %}
-      <a href="/es">Inicio</a>
+      <a href="{{ site.url }}es">Inicio</a>
     {% elsif forloop.last or crumb == 'documentation' or crumb == 'documentacion' %}
       / {{ crumb_name }}
     {% else %}
