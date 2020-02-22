@@ -15,12 +15,6 @@ Photoduino es el controlador abierto de cámaras fotográficas basado en la plat
 frameborder="0" allowfullscreen class="video"></iframe>
 </div>
 
-
-<div class="video-container">
-<iframe src="https://www.youtube.com/embed/E_mhEKf3QEs" 
-frameborder="0" allowfullscreen class="video"></iframe>
-</div>
-
 ## ¿Qué tipo de fotografías puede tomar?
 
 Su proposito principal es servir como apoyo técnico a la toma de fotografías de alta velocidad, pero también puedes usarlo como intervalómetro para hacer videos “Timelapse” o para la fotografía de animales o insectos. Echa un vistazo a las imágenes de ejemplo en [Flickr](http://www.flickr.com/groups/photoduino/pool/) y en [Instagram](https://www.instagram.com/explore/tags/photoduino/).
@@ -30,6 +24,11 @@ Su proposito principal es servir como apoyo técnico a la toma de fotografías d
 Es un circuito electrónico que se coloca sobre una placa Arduino a modo de “shield” y toma de esta todas las entradas, salidas y pines de alimentación. Tiene todos los componentes electrónicos necesarios y dispone de conectores para conectar la cámara, los flashes y los sensores.
 
 Puede controlar el obturador y el enfoque de la cámara y  el disparo de dos flashes. Tiene también un sensor de sonido, un sensor de impacto y una barrera laser e infrarroja que pueden ser usados para tomar las fotografías cuando se registra un evento en el sensor. Puede incluso [controlar una electroválvula](documentacion/hardware/photoduino-solenoid-valve-interface-1-0/ "Photoduino Solenoid Valve Interface 1.0") para generar directamente gotas de agua.
+
+<div class="video-container">
+<iframe src="https://www.youtube.com/embed/E_mhEKf3QEs" 
+frameborder="0" allowfullscreen class="video"></iframe>
+</div>
 
 La configuración se realiza completamente a través de una pequeña pantalla LCD utilizando solamente dos botones, por lo que funciona de forma independiente sin la necesidad de un ordenador (salvo para las actualizaciones del firmware) pero también, puedes usar el sofware [Photoduino Remote](documentacion/software-photoduino-remote/ "Software Photoduino Remote") para controlar completamente Photoduino.
 

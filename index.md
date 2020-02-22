@@ -15,12 +15,6 @@ Photoduino is the open source camera controller based on the Arduino platform 
 frameborder="0" allowfullscreen class="video"></iframe>
 </div>
 
-
-<div class="video-container">
-<iframe src="https://www.youtube.com/embed/E_mhEKf3QEs" 
-frameborder="0" allowfullscreen class="video"></iframe>
-</div>
-
 ## What kind of pictures can take?
 
 Its main purpose is to serve as technical support for shooting high speed photos, but you can use as intervalometer to make  ”Timelapse” videos or for animals or insects photography. Check the examples at [Flickr](http://www.flickr.com/groups/photoduino/pool/) and [Instagram](https://www.instagram.com/explore/tags/photoduino/).
@@ -30,6 +24,11 @@ Its main purpose is to serve as technical support for shooting high speed p
 It is an electronic circuit that is placed on an Arduino board as a “shield” taking all inputs, outputs and power pins. It has all the necessary electronic components and connectors for connecting the camera, flashes and sensors.
 
 You can control the shutter and camera autofocus and also can triggering of two flashes. It also has a sound sensor, an shock/impact sensor and a laser or infrared barrier that can be used to take pictures when you register an event in the sensor. With the [Solenoid Valve Interface](documentation/hardware/photoduino-solenoid-valve-interface-1-0/ "Photoduino Solenoid Valve Interface 1.0") you can generate droplets directly from Photoduino.
+
+<div class="video-container">
+<iframe src="https://www.youtube.com/embed/E_mhEKf3QEs" 
+frameborder="0" allowfullscreen class="video"></iframe>
+</div>
 
 The configuration is done entirely through a small LCD screen using only two buttons, so it works independently without the need for a computer (except for firmware updates) but also, you can use the [Photoduino Remote Software](documentation/photoduino-remote-software/ "Photoduino Remote Software") to wide control of Photoduino.
 
