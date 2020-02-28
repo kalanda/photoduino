@@ -10,7 +10,7 @@
     {% elsif forloop.last or crumb == 'documentation' or crumb == 'documentacion' %}
       / {{ crumb_name }}
     {% else %}
-      / <a href="{{ site.url }}/{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">
+      / <a href="{{ site.url }}{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">
         {{ crumb_name }}
         </a>
     {% endif %}
