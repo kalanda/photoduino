@@ -1,7 +1,7 @@
 title: Photoduino
 description: The opensource camera controller based on Arduino
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://kalanda.github.io/photoduino/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://kalanda.github.io/photoduino" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: pretty
 theme: jekyll-theme-cayman
 markdown: kramdown
