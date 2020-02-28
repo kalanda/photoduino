@@ -6,4 +6,4 @@
     |  __/|_| |_|\___/  \__)\___/ \____|____/|_|_| |_|\___/ 
     |_|  THE OPENSOURCE CAMERA CONTROLLER BASED ON ARDUINO                                                         
 
-http://photoduino.com/
+https://kalanda.github.io/photoduino/
