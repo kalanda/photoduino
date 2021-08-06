@@ -1,0 +1,530 @@
+WEBVTT
+
+1
+00:00:01.869 --> 00:00:06.222
+In this video I will explain in a few minutes  what is the Photoduino Project
+
+2
+00:00:06.222 --> 00:00:11.748
+Photoduino is an electronic camera controller based on Arduino
+
+3
+00:00:11.749 --> 00:00:15.371
+Photoduino can control SLR cameras
+
+4
+00:00:15.371 --> 00:00:19.132
+with a remote shutter connector like this.
+
+5
+00:00:19.132 --> 00:00:22.429
+In this case the remote shutter is  through a "Jack Stereo" connector
+
+6
+00:00:22.431 --> 00:00:25.458
+each camera brand implements  a different connector
+
+7
+00:00:25.458 --> 00:00:27.539
+but with similar operation.
+
+8
+00:00:27.539 --> 00:00:31.718
+It is also capable of controlling two  manual flashes like this two.
+
+9
+00:00:31.858 --> 00:00:34.923
+The system is based  on the Arduino platform.
+
+10
+00:00:34.923 --> 00:00:42.028
+And this is the board "Photoduino Shield" that  is connected to the Arduino board as well
+
+11
+00:00:42.027 --> 00:00:47.926
+implemented within the board all  connectors needed to connect
+
+12
+00:00:47.926 --> 00:00:53.313
+the two flashes, the camera and  sensors that now I will explain.
+
+13
+00:00:53.313 --> 00:00:59.960
+It also has a standard LCD display for  all interaction and configuration
+
+14
+00:00:59.962 --> 00:01:04.087
+and sensors of different types.
+
+15
+00:01:04.087 --> 00:01:09.302
+Have an impact sensor, which is  made with a piezo-electric speaker
+
+16
+00:01:09.302 --> 00:01:12.772
+Also implements an infrared barrier
+
+17
+00:01:12.772 --> 00:01:17.926
+composed of an infrared LED  and an infrared photodiode
+
+18
+00:01:17.926 --> 00:01:22.245
+that allow us to take photos  when is interrupted.
+
+19
+00:01:22.245 --> 00:01:24.242
+It also have a laser barrier
+
+20
+00:01:24.242 --> 00:01:27.307
+made with a laser pointer like this
+
+21
+00:01:27.307 --> 00:01:33.344
+and a LDR (light dependant resistor) like this in my left hand.
+
+22
+00:01:33.343 --> 00:01:36.562
+The other sensor is a sound sensor
+
+23
+00:01:36.563 --> 00:01:40.230
+made with a Electret microphone.
+
+24
+00:01:40.233 --> 00:01:45.459
+The whole system is mounted in a box  you see here mechanized
+
+25
+00:01:45.465 --> 00:01:49.340
+for LCD, connectors and the different sensors,
+
+26
+00:01:49.343 --> 00:01:52.250
+connectors for flashes and a connector for the camera
+
+27
+00:01:52.245 --> 00:01:56.609
+here is the USB connector and the power supply connector for Arduino
+
+28
+00:01:56.611 --> 00:01:58.790
+and two buttons for configuration.
+
+29
+00:01:58.793 --> 00:02:03.390
+You going to see the rest of this video   with the system mounted inside the box.
+
+30
+00:02:03.391 --> 00:02:05.490
+With all the connections inside the box
+
+31
+00:02:05.492 --> 00:02:10.909
+see here we have all the connectors,  buttons, the LCD, ...
+
+32
+00:02:10.913 --> 00:02:12.369
+and now we can start using it.
+
+33
+00:02:12.366 --> 00:02:14.600
+first we do, is connect the power supply
+
+34
+00:02:16.162 --> 00:02:21.439
+and the first thing we always see is the firmware release installed on the board
+
+35
+00:02:21.441 --> 00:02:25.810
+pushing any button we enter to the config menu
+
+36
+00:02:25.812 --> 00:02:29.030
+and all available run modes
+
+37
+00:02:25.812 --> 00:02:29.030
+
+
+38
+00:02:25.812 --> 00:02:29.030
+
+
+39
+00:02:29.072 --> 00:02:32.750
+The first option is the system configuration, that is very small
+
+40
+00:02:32.752 --> 00:02:37.250
+here we can turn ON/OFF the LCD display backlight
+
+41
+00:02:37.246 --> 00:02:39.570
+that you can not perceive because the ambient light I have
+
+42
+00:02:39.568 --> 00:02:43.420
+And also turn ON/OFF the speaker
+
+43
+00:02:43.421 --> 00:02:46.349
+that is emitting the small beeps you hear.
+
+44
+00:02:46.466 --> 00:02:49.920
+The rest of menu are the different run modes.
+
+45
+00:02:49.924 --> 00:02:54.379
+Each run mode has its own config parameters..
+
+46
+00:02:54.382 --> 00:02:58.879
+..independents of the rest that are saved in EEPROM to..
+
+47
+00:02:58.878 --> 00:03:00.449
+..avoid losing, when power is off.
+
+48
+00:03:00.447 --> 00:03:03.670
+The first mode that I will explain  is the interval mode
+
+49
+00:03:03.669 --> 00:03:08.619
+that allows us to take photos every "n" time  so that we can make "time-lapse" videos
+
+50
+00:03:08.622 --> 00:03:15.560
+or take lightning photos, making multiple photos until get the desired picture
+
+51
+00:03:15.562 --> 00:03:19.550
+As all run modes has three options:
+
+52
+00:03:19.551 --> 00:03:22.849
+"Config", "Run" and "Reset config"
+
+53
+00:03:22.849 --> 00:03:26.939
+If we see the configuration  we have different parameters..
+
+54
+00:03:26.936 --> 00:03:29.780
+..we can enable or disable  the use of flashes,..
+
+55
+00:03:29.776 --> 00:03:35.280
+..set the autofocus time,  the time between each flash,...
+
+56
+00:03:35.282 --> 00:03:38.750
+I will not go into details because  this is a introduction demo.
+
+57
+00:03:38.752 --> 00:03:44.350
+The first thing, I set the interval units,  by default are in seconds
+
+58
+00:03:44.350 --> 00:03:47.229
+but we can set it to minutes, hours and days.
+
+59
+00:03:47.227 --> 00:03:48.560
+I'll leave it in seconds ...
+
+60
+00:03:50.110 --> 00:03:57.820
+Let's set the interval value, how often we take a picture.
+
+61
+00:03:58.004 --> 00:04:01.210
+Let's set it in 4 seconds ...
+
+62
+00:04:02.575 --> 00:04:06.319
+once we have set  we put in the "run" option ..
+
+63
+00:04:06.317 --> 00:04:10.870
+with our cable, we connect Photoduino
+
+64
+00:04:10.867 --> 00:04:18.339
+and this will connect to the remote shutter of the camera ...
+
+65
+00:04:18.345 --> 00:04:19.990
+... I set to "Run" ...
+
+66
+00:04:20.156 --> 00:04:24.160
+now see it takes a photo
+
+67
+00:04:24.163 --> 00:04:25.829
+..and now another...
+
+68
+00:04:25.831 --> 00:04:28.279
+it does every 4 seconds  as we have indicated.
+
+69
+00:04:28.283 --> 00:04:32.420
+In this way we can establish  the camera at a fixed point..
+
+70
+00:04:32.416 --> 00:04:35.759
+and taking pictures every "n" time  and then make a video
+
+71
+00:04:35.759 --> 00:04:39.939
+or as I said, automate catching lightning.
+
+72
+00:04:40.264 --> 00:04:45.279
+The next run mode is the "audio trigger"
+
+73
+00:04:45.279 --> 00:04:51.219
+This trigger occurs when a sound  exceeds the limit we define
+
+74
+00:04:51.225 --> 00:04:54.150
+.. Connect the microphone to your connection ..
+
+75
+00:04:54.149 --> 00:04:59.399
+.. We are in configuration to the sensor limit  where we see a small arrow
+
+76
+00:04:59.399 --> 00:05:03.970
+that tells us what's the point  in which the camera will shoot
+
+77
+00:05:03.762 --> 00:05:06.269
+we set it to the point current point
+
+78
+00:05:06.271 --> 00:05:09.640
+and the arrow indicates that the limit  is above that value
+
+79
+00:05:09.642 --> 00:05:14.299
+.. We have established the "run", you see  is shooting because I'm speaking ..
+
+80
+00:05:14.305 --> 00:05:18.209
+.. But if I do not speak, does not shoot ..
+
+81
+00:05:18.418 --> 00:05:25.870
+.. it takes the picture when listen sound of the lighter ..
+
+82
+00:05:25.543 --> 00:05:30.370
+This allows us to perform different photo types  such as ...
+
+83
+00:05:30.374 --> 00:05:33.160
+.. water balloons at time it explode ..
+
+84
+00:05:33.160 --> 00:05:36.780
+or any glass object breaking, etc ...
+
+85
+00:05:36.781 --> 00:05:40.919
+The next run mode is the "barrier mode".
+
+86
+00:05:40.915 --> 00:05:45.000
+There are two types of barriers:  The Laser barrier and the infrared barrier
+
+87
+00:05:45.002 --> 00:05:49.740
+As you can see we have a connector for  laser and one for an infrared LED
+
+88
+00:05:49.738 --> 00:05:55.589
+and this one can be used for both  LDR that works with the laser
+
+89
+00:05:55.588 --> 00:05:59.540
+and for the photodiode that works  with the infrared barrier
+
+90
+00:05:59.538 --> 00:06:04.800
+We have formed a barrier with an LED emitter  and an LED receiver, the two are infrared ..
+
+91
+00:06:04.798 --> 00:06:08.129
+..So even though you do not see, there is a light that binds..
+
+92
+00:06:08.129 --> 00:06:15.379
+We have our camera connected to Photoduino  and the transmitter and receiver connected too.
+
+93
+00:06:15.375 --> 00:06:21.129
+In config of sensor limit of the barrier it  indicates the amount of light reaching
+
+94
+00:06:21.132 --> 00:06:29.259
+and as you see, if I interrupt the barrier, don't receive sufficient light and it beeps
+
+95
+00:06:29.255 --> 00:06:39.029
+and if set to "Run", you see when I interrupt,  the camera takes the photo.
+
+96
+00:06:39.031 --> 00:06:46.949
+The application of such barriers is for example,  take pictures of water droplets ..
+
+97
+00:06:46.999 --> 00:06:53.550
+.. So that we can do that when the water droplet   interrupts the barrier, if we calculate the  time it takes to touch the surface ..
+
+98
+00:06:53.560 --> 00:06:59.310
+..through the Photoduino config  set the moment when you take the picture.
+
+99
+00:06:59.305 --> 00:07:01.560
+The photo can be made through the camera
+
+100
+00:07:01.555 --> 00:07:06.790
+or through the flashes, although I have not yet demonstrated
+
+101
+00:07:06.793 --> 00:07:11.840
+can be configured in all run modes
+
+102
+00:07:11.845 --> 00:07:13.560
+This would be the laser barrier
+
+103
+00:07:13.562 --> 00:07:17.769
+Here you see that I mounted a laser pointer
+
+104
+00:07:17.771 --> 00:07:22.680
+and at the other end I mounted the LDR
+
+105
+00:07:22.675 --> 00:07:26.079
+for establishing a barrier between them through laser.
+
+106
+00:07:26.079 --> 00:07:32.790
+The good thing about the laser barrier is that  it allows longer barriers than infrared
+
+107
+00:07:32.788 --> 00:07:37.899
+because the laser has more reach than infrared diode
+
+108
+00:07:37.898 --> 00:07:41.500
+Just as in the infrared barrier I set to "Run"
+
+109
+00:07:41.495 --> 00:07:50.949
+and see that when you break the barrier the picture is taken
+
+110
+00:07:50.947 --> 00:07:59.509
+You can see that when breaks the barrier the laser turns off to not be in the picture
+
+111
+00:07:59.817 --> 00:08:07.389
+Such barriers can be used to take animal photos  or any object that cross the barrier
+
+112
+00:08:07.805 --> 00:08:13.160
+The next run mode is the "shock mode"
+
+113
+00:08:13.161 --> 00:08:15.759
+as the rest, has own settings
+
+114
+00:08:15.762 --> 00:08:20.829
+and the sensor used is the piezo-electric speaker
+
+115
+00:08:20.834 --> 00:08:34.210
+if we go to the config of the sensor limit,   when impact on the sensor, it beeps
+
+116
+00:08:34.147 --> 00:08:37.670
+the same way as before, set to "Run"..
+
+117
+00:08:37.666 --> 00:08:45.840
+when it occurs the impact, the picture is taken
+
+118
+00:08:46.826 --> 00:08:53.779
+With type of sensor is sufficient  an impact on the surface it is
+
+119
+00:08:54.001 --> 00:08:56.669
+and the last execution mode  we have so far
+
+120
+00:08:56.669 --> 00:09:01.679
+(Because Photoduino firmware is constant evoluting)
+
+121
+00:09:01.508 --> 00:09:03.530
+is the "flash slave mode"
+
+122
+00:09:03.533 --> 00:09:11.620
+We can shoot both flashes  when a third flash fires
+
+123
+00:09:11.618 --> 00:09:14.490
+This mode would not serve to shoot the camera
+
+124
+00:09:14.493 --> 00:09:15.840
+using the light sensor ...
+
+125
+00:09:15.839 --> 00:09:18.230
+so that when we set to "Run" ..
+
+126
+00:09:18.903 --> 00:09:22.340
+have connected the flash to the flash connector..
+
+127
+00:09:22.341 --> 00:09:33.159
+the LDR will fire the flash when receive  more light than it is on the sensor limit
+
+128
+00:09:33.160 --> 00:09:35.059
+if for example, turn on the lighter ...
+
+129
+00:09:35.065 --> 00:09:38.690
+you see the flash fired
+
+130
+00:09:38.687 --> 00:09:45.250
+This allows us to remotely control  flashes when the main flash fires
+
+131
+00:09:45.251 --> 00:09:47.519
+And that's all folks, I hope you liked it and you enter the web http://www.photoduino.com
+
+132
+00:09:49.926 --> 00:09:54.480
+to continue making this project  a so interesting project.
+
