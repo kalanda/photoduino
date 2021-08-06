@@ -12,8 +12,8 @@ Photoduino is the open source camera controller based on the Arduino platform wh
 
 <div class="video-container">
 <video controls preload="metadata" style="width:100%">
-<source src="https://github.com/kalanda/photoduino/blob/gh-pages/assets/videos/photoduino-intro.mp4?raw=true" type="video/mp4">
-<track label="English" kind="subtitles" srclang="en" src="https://raw.githubusercontent.com/kalanda/photoduino/gh-pages/assets/videos/photoduino-intro.vtt" default>
+<source src="https://kalanda.github.io/photoduino/assets/videos/photoduino-intro.mp4" type="video/mp4">
+<track label="English" kind="subtitles" srclang="en" src="https://kalanda.github.io/photoduino/assets/videos/photoduino-intro.vtt" default>
 </video>
 </div>
 
@@ -29,7 +29,7 @@ You can control the shutter and camera autofocus and also can triggering of two 
 
 <div class="video-container">
 <video controls preload="metadata" style="width:100%">
-<source src="https://github.com/kalanda/photoduino/blob/gh-pages/assets/videos/photoduino-ev.mp4?raw=true" type="video/mp4">
+<source src="https://kalanda.github.io/photoduino/assets/videos/photoduino-ev.mp4" type="video/mp4">
 </video>
 </div>
 
