@@ -10,10 +10,10 @@ This run mode is used to take pictures based on the sensor readings. Main uses a
 
 When you enter in the “Sensor trigger” option of the main menu, you will found this submenus.
 
--   **Config trigger: **Defines the config parameters of this mode used according the “Life cycle of execution”.
+-   **Config trigger: **Defines the config parameters of this mode used according the “Life cycle of execution”.
 -   **Config drops:** Only if the “Device type” in the “[System config](../system-config/ "System config")” is equal to Electrovalve.
--   **Run: **Entering this option will start the run mode according the Life cycle of execution. To cancel the execution, just press and hold one button until the LCD displays “Aborting…”
--   **Reset config: **This option resets the config parameters of this run mode to the default values.
+-   **Run: **Entering this option will start the run mode according the Life cycle of execution. To cancel the execution, just press and hold one button until the LCD displays “Aborting…”
+-   **Reset config: **This option resets the config parameters of this run mode to the default values.
 
 ## Config trigger
 
@@ -122,7 +122,7 @@ When you enter in the “Sensor trigger” option of the main menu, you will fou
 
 The life cycle of execution don’t shows this drops functionality, but drops are generated always before “Waits for sensor” blocks in the diagram.
 
-This parameters are used only if the electrovalve connected to the device port and configured in the “Device type” of the “[System config](../system-config/ "System config")”
+This parameters are used only if the electrovalve connected to the device port and configured in the “Device type” of the “[System config](../system-config/ "System config")”
 
 <table>
 <thead>
@@ -165,7 +165,7 @@ This parameters are used only if the electrovalve connected to the device port 
 
 ## Life cycle of execution
 
-The life cycle is the diagram that explains the execution and how each parameters are used when you  run the sensor trigger mode.
+The life cycle is the diagram that explains the execution and how each parameters are used when you  run the sensor trigger mode.
 
 There are three life cycles of execution. Each one are dependant of the “Shooting Mode” parameter of the “Config trigger” section.
 
@@ -181,7 +181,7 @@ This mode is intended to take pictures starting the process by a sensor but usin
 
 ### Shooting mode: Pre Bulb
 
-In this mode, the system is assuming that you set your camera in BULB mode and  you will use one or two flashes to take the picture in a dark room. Using this mode you avoid all mechanical lags produced by the camera and take the photos with fastest time of response and the fastest time of exposure defined by the duration of the flash that you are using.
+In this mode, the system is assuming that you set your camera in BULB mode and  you will use one or two flashes to take the picture in a dark room. Using this mode you avoid all mechanical lags produced by the camera and take the photos with fastest time of response and the fastest time of exposure defined by the duration of the flash that you are using.
 
 ![](../../../assets/images/en-sensor-shotting-prebulb-lifecicle.jpg "Shooting mode prebulb")
 

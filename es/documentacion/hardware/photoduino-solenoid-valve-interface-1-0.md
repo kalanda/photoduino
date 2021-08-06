@@ -5,7 +5,7 @@ title: Photoduino Solenoid Valve Interface 1.0
 ---
 ![](../../../../assets/images/IMG_4806.jpg "Photoduino Solenoid Valve Interface 1.0")
 
-Con la publicación del Photoduino Firmware v.0.10 se incluyó la posibilidad de controlar una electroválvula o válvula de solenoide, para generar gotas automáticamente desde Photoduino.
+Con la publicación del Photoduino Firmware v.0.10 se incluyó la posibilidad de controlar una electroválvula o válvula de solenoide, para generar gotas automáticamente desde Photoduino.
 
 Las electroválvulas funcionan generalmente con 12v tienen un consumo alto de corriente, por lo que es necesario este nuevo circuito que conectado al puerto DEVICE de Photoduino permite la conexión de una electroválvula y su propia alimentación de 12v.
 
@@ -98,7 +98,7 @@ La alimentación de 12v puede realizarse mediante el portabaterias de 8 pilas de
 
 ## Esquema de la PCB
 
-\- [Descargar esquemas del circuito en formato Eaglecad](http://sourceforge.net/projects/photoduino/files/hardware/photoduino.solenoid.valve.interface.1.0.zip/download)
+\- [Descargar esquemas del circuito en formato Eaglecad](http://sourceforge.net/projects/photoduino/files/hardware/photoduino.solenoid.valve.interface.1.0.zip/download)
 
 ![](../../../../assets/images/electrovalve-interface-schema-600x492.png "electrovalve-interface-schema")
 

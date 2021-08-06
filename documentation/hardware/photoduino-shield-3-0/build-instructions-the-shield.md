@@ -21,7 +21,7 @@ In the next picture you can see which is the upper side of the PCB.
 
 ## Pins for connecting Arduino
 
-The first thing to solder is the pin headers to connect to Arduino board that will go under the shield. In the next photo you can see the 4 groups of pins. There are two groups of 6 pins and two groups of 8 pins. You put in the bottom of the PCB and then solder from the top of the PCB.
+The first thing to solder is the pin headers to connect to Arduino board that will go under the shield. In the next photo you can see the 4 groups of pins. There are two groups of 6 pins and two groups of 8 pins. You put in the bottom of the PCB and then solder from the top of the PCB.
 
 Look closely, are welded to the upper side but are placed at the bottom.
 
@@ -47,7 +47,7 @@ Put in the position you see in the picture below as “D1″. Note that there is
 
 ## 10K resistors
 
-The eight 10K resistors can recognize them by the colors: Brown, black and  orange. You must put at positions R1, R4, R5, R6, R7, R8, R10 and R11 as you see in the picture below.
+The eight 10K resistors can recognize them by the colors: Brown, black and  orange. You must put at positions R1, R4, R5, R6, R7, R8, R10 and R11 as you see in the picture below.
 
 ![](../../../../assets/images/shield3-build-08.jpg "shield3-build-01")
 
@@ -71,7 +71,7 @@ There are two 360 Ohms resistors with colors orange, blue and brown to put in po
 
 ## 1N4004 Diode
 
-The 1N4004 diode should be placed in position D2, has a gray band at one end to indicate their polarity. You place it as shown in the next picture.
+The 1N4004 diode should be placed in position D2, has a gray band at one end to indicate their polarity. You place it as shown in the next picture.
 
 ![](../../../../assets/images/shield3-build-12.jpg "shield3-build-01")
 
@@ -131,13 +131,13 @@ In the next picture you can see how solder terminal connection for external batt
 
 ## Flash setting jumpers
 
-Some very specific flashes may need to activate or deactivate a fraction of the output circuit to function properly. In the next photo you can see that you must put two pinheaders of two ways for put a jumper later.
+Some very specific flashes may need to activate or deactivate a fraction of the output circuit to function properly. In the next photo you can see that you must put two pinheaders of two ways for put a jumper later.
 
 ![](../../../../assets/images/shield3-build-22.jpg "shield3-build-01")
 
 ## LCD Display
 
-To solder the LCD to the PCB you must first solder a row of 16 pins to the LCD. Some displays like the following picture are able to use the same pins on the top or bottom as needed.  If you have this type of display you must solder the pinheader  to the top-left row if you’re looking from the front of the display.
+To solder the LCD to the PCB you must first solder a row of 16 pins to the LCD. Some displays like the following picture are able to use the same pins on the top or bottom as needed.  If you have this type of display you must solder the pinheader  to the top-left row if you’re looking from the front of the display.
 
 ![](../../../../assets/images/shield3-build-23.jpg "shield3-build-01")  
 ![](../../../../assets/images/shield3-build-24.jpg "shield3-build-01")  
@@ -158,14 +158,14 @@ Now you have the shield finished.
 
 ## Flash settings
 
-As we mentioned above, some flashes need to activate a small circuit inside the shield to function properly. If you put the blue jumpers as in the picture below, this circuit is disabled, normal for most of the flashes. If your flash model needs the solution, you must remove the jumper to enable the fix at the output of the flash where you go to use it.
+As we mentioned above, some flashes need to activate a small circuit inside the shield to function properly. If you put the blue jumpers as in the picture below, this circuit is disabled, normal for most of the flashes. If your flash model needs the solution, you must remove the jumper to enable the fix at the output of the flash where you go to use it.
 
 ![](../../../../assets/images/shield3-build-31.jpg "shield3-build-01")  
 ![](../../../../assets/images/shield3-build-32.jpg "shield3-build-01")
 
 ## Connecting to Arduino board
 
-Now that you have fully assembled your PhotoduinoShield 3.0, you only need to add an Arduino board below. You can use any model of Arduino UNO or even an old Arduino Duemilanove.
+Now that you have fully assembled your PhotoduinoShield 3.0, you only need to add an Arduino board below. You can use any model of Arduino UNO or even an old Arduino Duemilanove.
 
 ![](../../../../assets/images/shield3-build-33.jpg "shield3-build-01")  
 ![](../../../../assets/images/shield3-build-34.jpg "shield3-build-01")

@@ -26,7 +26,7 @@ Lo siguiente que vas a hacer, vas a tener que repetirlo para cada sensor prácti
 
 ![](../../../../../assets/images/shield3-sensors-04.jpg)
 
-Ten en cuenta que de los 6 cables que tienes ahora, los dos que tienen conector amarillo son un poco más gruesos que los que tienen conectores rojo o blanco, así que para los amarillos necesitarás usar el termoretráctil de más diametro incluido en el kit, y con los otros (rojo y blanco) el mediano. Lo más fácil es que hagas pasar el cable por el termoretractil antes de pelarlo y veas si entra con suavidad o no. No debe entrar forzado pero tampoco debe ser desproporcionado y sobrarle demasiado.
+Ten en cuenta que de los 6 cables que tienes ahora, los dos que tienen conector amarillo son un poco más gruesos que los que tienen conectores rojo o blanco, así que para los amarillos necesitarás usar el termoretráctil de más diametro incluido en el kit, y con los otros (rojo y blanco) el mediano. Lo más fácil es que hagas pasar el cable por el termoretractil antes de pelarlo y veas si entra con suavidad o no. No debe entrar forzado pero tampoco debe ser desproporcionado y sobrarle demasiado.
 
 ![](../../../../../assets/images/shield3-sensors-05.jpg)
 
@@ -115,7 +115,7 @@ Ya tienes preparado el emisor IR.
 
 ## Sensor de luz visible
 
-El sensor de luz visible te servirá para crear barreras láser o para disparar la cámara o los flashes cuando la luz supere un umbral. Para este sensor usaremos la LDR (Light Dependant Resistor). La LDR en una resistencia que varia su valor en función de la luz, por lo que no tiene polaridad. Cómo ya has hecho en los anteriores pasos, debes preparar el cable con sus termorretráctiles.
+El sensor de luz visible te servirá para crear barreras láser o para disparar la cámara o los flashes cuando la luz supere un umbral. Para este sensor usaremos la LDR (Light Dependant Resistor). La LDR en una resistencia que varia su valor en función de la luz, por lo que no tiene polaridad. Cómo ya has hecho en los anteriores pasos, debes preparar el cable con sus termorretráctiles.
 
 ![](../../../../../assets/images/shield3-sensors-36.jpg)![](../../../../../assets/images/shield3-sensors-37.jpg)![](../../../../../assets/images/shield3-sensors-38.jpg)![](../../../../../assets/images/shield3-sensors-39.jpg)![](../../../../../assets/images/shield3-sensors-40.jpg)
 
@@ -125,7 +125,7 @@ Ya tienes montado tu sensor de luz visible.
 
 ## Sensor infrarrojo por Fototransistor
 
-Como ya hemos comentado antes, podrás elegir entre dos tipos de receptor IR según las necesidades. Primero vamos a montar el que está basado en un fototransistor. El fototransistor y el fotodiodo son muy parecidos, pero el fototransistor es algo más pequeño. El color de la lente del fototransistor puede ser distinto (normalmente transparente) al que muestra la imagen. El fototransistor también tiene polaridad indicada por la forma de su base plana o redondeada. En este caso la conexión es al contrario que con el LED IR anteriormente montado. Debes soldar el lado FLAT(-) al cable central y el lado ROUNDED(+) al cable exterior como en la siguiente imagen. Cómo ya has hecho en los anteriores pasos, debes preparar el cable con sus termorretráctiles.
+Como ya hemos comentado antes, podrás elegir entre dos tipos de receptor IR según las necesidades. Primero vamos a montar el que está basado en un fototransistor. El fototransistor y el fotodiodo son muy parecidos, pero el fototransistor es algo más pequeño. El color de la lente del fototransistor puede ser distinto (normalmente transparente) al que muestra la imagen. El fototransistor también tiene polaridad indicada por la forma de su base plana o redondeada. En este caso la conexión es al contrario que con el LED IR anteriormente montado. Debes soldar el lado FLAT(-) al cable central y el lado ROUNDED(+) al cable exterior como en la siguiente imagen. Cómo ya has hecho en los anteriores pasos, debes preparar el cable con sus termorretráctiles.
 
 ![](../../../../../assets/images/shield3-sensors-42.jpg)![](../../../../../assets/images/shield3-sensors-43.jpg)![](../../../../../assets/images/shield3-sensors-44.jpg)
 

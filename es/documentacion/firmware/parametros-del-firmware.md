@@ -17,7 +17,7 @@ Estos parámetros de configuración están en el archivo “Photoduino.ino” de
 
 ## Idioma de los menus
 
-Este parámetro define en que lenguaje deseas que estén escritos los menus. Básicamente es el nombre del archivo que contiene los textos a usar. Si quieres realizar tu propia traducción a otro idioma y compartirla con la comunidad, simplemente crea un archivo llamado “language\_XX.h” donde “XX” es el código ISO del lenguaje.
+Este parámetro define en que lenguaje deseas que estén escritos los menus. Básicamente es el nombre del archivo que contiene los textos a usar. Si quieres realizar tu propia traducción a otro idioma y compartirla con la comunidad, simplemente crea un archivo llamado “language\_XX.h” donde “XX” es el código ISO del lenguaje.
 
 ```
 // Language of menus:  

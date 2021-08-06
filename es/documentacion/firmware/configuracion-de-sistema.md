@@ -6,7 +6,7 @@ title: Configuración de sistema
 
 ![](../../../../assets/images/es-lcd-system-config-menu.jpg "Config sistema")
 
-En esta sección, puedes configurar los parámetros comunes del sistema.
+En esta sección, puedes configurar los parámetros comunes del sistema.
 
 <table>
 <thead>
@@ -26,7 +26,7 @@ En esta sección, puedes configurar los parámetros comunes del sistema.
 <li>Electrovalvula</li>
 </ul>
 </td>
-<td>Define que tipo de dispositivo está conectado al conector del puerto DEVICE. Si el dispositivo es &#8220;Electrovalvula&#8221;, podrás ver el menú &#8220;Config Gotas&#8221; dentro del modo &#8220;Disparo Sensor&#8221;. Si el dispositivo es &#8220;Laser&#8221;, el sistema apagará el laser antes de hacer la foto después de que la barrera laser sea interrumpida.</td>
+<td>Define que tipo de dispositivo está conectado al conector del puerto DEVICE. Si el dispositivo es &#8220;Electrovalvula&#8221;, podrás ver el menú &#8220;Config Gotas&#8221; dentro del modo &#8220;Disparo Sensor&#8221;. Si el dispositivo es &#8220;Laser&#8221;, el sistema apagará el laser antes de hacer la foto después de que la barrera laser sea interrumpida.</td>
 </tr>
 <tr>
 <td><em>Ajuste sensores</em></td>

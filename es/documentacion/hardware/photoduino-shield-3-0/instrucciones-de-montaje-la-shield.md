@@ -5,7 +5,7 @@ title: "Instrucciones de montaje: La shield"
 ---
 Lo primero por lo que empezaremos a montar Photoduino es por la shield. Para realizar el montaje necesitarás además de todos los componentes, un soldador, estaño, un alicate de corte y un par de destornilladores (punta plana y estrella).
 
-**ES MUY IMPORTANTE** saber soldar correctamente.[Descárgate este comic para aprender a soldar facilmente “Soldar es fácil”](https://kalanda.github.io/photoduino/assets/pdf/FullSolderComic_ES.pdf)
+**ES MUY IMPORTANTE** saber soldar correctamente.[Descárgate este comic para aprender a soldar facilmente “Soldar es fácil”](https://kalanda.github.io/photoduino/assets/pdf/FullSolderComic_ES.pdf)
 
 ## La placa PCB
 
@@ -13,7 +13,7 @@ Debes prestar atención a las fotos para no equivocarte sobre aquellos component
 
 Además algunos componentes se deben soldar por la cara superior y posicionando el componente en la inferior (por los que comenzaremos), así que no pierdas detalle.
 
-Aunque en este tutorial se habla de cada componente y se ilustra su posición en la placa, la mayoría de ellos vienen indicados en la propia PCB.
+Aunque en este tutorial se habla de cada componente y se ilustra su posición en la placa, la mayoría de ellos vienen indicados en la propia PCB.
 
 En la siguiente foto puedes ver cual será la cara superior de la PCB de ahora en adelante.
 
@@ -29,7 +29,7 @@ Fíjate bien, se sueldan por la cara superior pero se colocan en la inferior.
 
 ![](../../../../../assets/images/shield3-build-04.jpg "shield3-build-01")
 
-## Conectores para sensores, cámara y flashes
+## Conectores para sensores, cámara y flashes
 
 Los conectores RCA y Jack que van en la PCB, también debes ponerlos por la cara inferior de la PCB y soldarlos por la cara superior.
 
@@ -131,7 +131,7 @@ En la siguiente foto puede ver como debes soldar el terminal de conexión para l
 
 ## Jumpers de configuración de los flashes
 
-Algunos flashes muy concretos puede que necesiten activar o desactivar  una pequeña parte del circuito de salida para funcionar correctamente. En la siguiente foto puedes ver que debes colocar dos pares de pines para después poder poner un jumper entre ellos.
+Algunos flashes muy concretos puede que necesiten activar o desactivar  una pequeña parte del circuito de salida para funcionar correctamente. En la siguiente foto puedes ver que debes colocar dos pares de pines para después poder poner un jumper entre ellos.
 
 ![](../../../../../assets/images/shield3-build-22.jpg "shield3-build-01")
 
@@ -158,7 +158,7 @@ Con esto ya tendrías montada la shield completamente.
 
 ## Configuración de los flashes
 
-Como comentábamos más arriba, algunos flashes  necesitan activar un pequeño circuito dentro de la shield para funcionar correctamente. Si colocas los jumpers azules como en las siguiente foto, este circuito se desactiva, lo normal para la mayoría de los flashes. Si tu modelo de flash necesita de esta solución, debes quitar el jumper para activarlo en la salida del flash donde vayas a usarlo.
+Como comentábamos más arriba, algunos flashes  necesitan activar un pequeño circuito dentro de la shield para funcionar correctamente. Si colocas los jumpers azules como en las siguiente foto, este circuito se desactiva, lo normal para la mayoría de los flashes. Si tu modelo de flash necesita de esta solución, debes quitar el jumper para activarlo en la salida del flash donde vayas a usarlo.
 
 ![](../../../../../assets/images/shield3-build-31.jpg "shield3-build-01")  
 ![](../../../../../assets/images/shield3-build-32.jpg "shield3-build-01")

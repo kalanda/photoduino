@@ -12,9 +12,9 @@ Este modo de ejecución es utilizado para tomar fotografías en intervalos confi
 
 Cuando entras en esta opción del menú principal, encontrarás 3 opciones.
 
--   **Configuración:** Define los parámetros de este modo de ejecución que intervienen en el “Ciclo de vida de ejecución” mostrado más abajo.
--   **Run:** Al entrar en esta opción, comenzará la ejecución de este modo como se describe más abajo en el “Ciclo de vida de ejecución”. Para cancelar la ejecución, mantén pulsado cualquiera de los dos botones hasta que aparezca en la pantalla “Cancelando…”.
--   **Reset config:** Esta opción volverá todos los parámetros de este modo al sus valores por defecto.
+-   **Configuración:** Define los parámetros de este modo de ejecución que intervienen en el “Ciclo de vida de ejecución” mostrado más abajo.
+-   **Run:** Al entrar en esta opción, comenzará la ejecución de este modo como se describe más abajo en el “Ciclo de vida de ejecución”. Para cancelar la ejecución, mantén pulsado cualquiera de los dos botones hasta que aparezca en la pantalla “Cancelando…”.
+-   **Reset config:** Esta opción volverá todos los parámetros de este modo al sus valores por defecto.
 
 ## Parámetros de configuración
 

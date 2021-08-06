@@ -61,7 +61,7 @@ In this section, you can set common parameters of the system.
                     <li>0-59999</li>
                 </ul>
             </td>
-            <td>Timeout expressed in milliseconds until the mirror is lockdown by the camera when using the
+            <td>Timeout expressed in milliseconds until the mirror is lockdown by the camera when using the
                 &#8220;Mirror lock-up&#8221; mode in the &#8220;<a title="Sensor trigger mode"
                     href="../sensor-trigger-mode/">Sensor trigger</a>&#8221; mode</td>
         </tr>
@@ -100,7 +100,7 @@ In this section, you can set common parameters of the system.
                 </ul>
             </td>
             <td>Determines if the system beeps or not. If beeps is activated, the system will beep every time you enter
-                o exit a section of navigation menus, when you change a setting that is logical value and when you are
+                o exit a section of navigation menus, when you change a setting that is logical value and when you are
                 adjusting a sensor limit to indicate that reading is exceeding the limit value selected.</td>
         </tr>
         <tr>

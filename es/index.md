@@ -11,8 +11,10 @@ lang: es
 Photoduino es el controlador abierto de cámaras fotográficas basado en la plataforma Arduino que puedes usar para tomar fotografías automáticamente con tu cámara DSLR o Réflex digital.
 
 <div class="video-container">
-<iframe src="https://www.youtube.com/embed/jCdz2PqvwS0" 
-frameborder="0" allowfullscreen class="video"></iframe>
+<video controls preload="metadata" style="width:100%">
+<source src="https://github.com/kalanda/photoduino/blob/gh-pages/assets/videos/photoduino-intro.mp4?raw=true" type="video/mp4">
+<track label="English" kind="subtitles" srclang="en" src="https://raw.githubusercontent.com/kalanda/photoduino/gh-pages/assets/videos/photoduino-intro.vtt" default>
+</video>
 </div>
 
 ## ¿Qué tipo de fotografías puede tomar?
@@ -23,18 +25,19 @@ Su proposito principal es servir como apoyo técnico a la toma de fotografías d
 
 Es un circuito electrónico que se coloca sobre una placa Arduino a modo de “shield” y toma de esta todas las entradas, salidas y pines de alimentación. Tiene todos los componentes electrónicos necesarios y dispone de conectores para conectar la cámara, los flashes y los sensores.
 
-Puede controlar el obturador y el enfoque de la cámara y  el disparo de dos flashes. Tiene también un sensor de sonido, un sensor de impacto y una barrera laser e infrarroja que pueden ser usados para tomar las fotografías cuando se registra un evento en el sensor. Puede incluso [controlar una electroválvula](documentacion/hardware/photoduino-solenoid-valve-interface-1-0/ "Photoduino Solenoid Valve Interface 1.0") para generar directamente gotas de agua.
+Puede controlar el obturador y el enfoque de la cámara y  el disparo de dos flashes. Tiene también un sensor de sonido, un sensor de impacto y una barrera laser e infrarroja que pueden ser usados para tomar las fotografías cuando se registra un evento en el sensor. Puede incluso [controlar una electroválvula](documentacion/hardware/photoduino-solenoid-valve-interface-1-0/ "Photoduino Solenoid Valve Interface 1.0") para generar directamente gotas de agua.
 
 <div class="video-container">
-<iframe src="https://www.youtube.com/embed/E_mhEKf3QEs" 
-frameborder="0" allowfullscreen class="video"></iframe>
+<video controls preload="metadata" style="width:100%">
+<source src="https://github.com/kalanda/photoduino/blob/gh-pages/assets/videos/photoduino-ev.mp4?raw=true" type="video/mp4">
+</video>
 </div>
 
-La configuración se realiza completamente a través de una pequeña pantalla LCD utilizando solamente dos botones, por lo que funciona de forma independiente sin la necesidad de un ordenador (salvo para las actualizaciones del firmware) pero también, puedes usar el sofware [Photoduino Remote](documentacion/software-photoduino-remote/ "Software Photoduino Remote") para controlar completamente Photoduino.
+La configuración se realiza completamente a través de una pequeña pantalla LCD utilizando solamente dos botones, por lo que funciona de forma independiente sin la necesidad de un ordenador (salvo para las actualizaciones del firmware) pero también, puedes usar el sofware [Photoduino Remote](documentacion/software-photoduino-remote/ "Software Photoduino Remote") para controlar completamente Photoduino.
 
 ## ¿Es compatible con mi cámara?
 
-El sistema es actualmente compatible con una amplia lista de cámaras DSLR que tienen conector para disparo remoto por cable. Revisa la [referencia de conectores](documentacion/referencia/conectores-control-remoto-de-camaras/ "Conectores control remoto de cámaras").
+El sistema es actualmente compatible con una amplia lista de cámaras DSLR que tienen conector para disparo remoto por cable. Revisa la [referencia de conectores](documentacion/referencia/conectores-control-remoto-de-camaras/ "Conectores control remoto de cámaras").
 
 ## Documentación
 

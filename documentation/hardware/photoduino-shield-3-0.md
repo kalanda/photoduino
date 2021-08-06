@@ -25,7 +25,7 @@ title: Photoduino Shield 3.0
 
 ## Eaglecad files
 
-You can download original [Eaglecad files](http://sourceforge.net/projects/photoduino/files/hardware/photoduino.shield.3.0.zip/download) and also the [case design files](http://sourceforge.net/projects/photoduino/files/hardware/photoduino.case.1.0.zip/download).
+You can download original [Eaglecad files](http://sourceforge.net/projects/photoduino/files/hardware/photoduino.shield.3.0.zip/download) and also the [case design files](http://sourceforge.net/projects/photoduino/files/hardware/photoduino.case.1.0.zip/download).
 
 [![](../../../assets/images/shield3-schema-600x403.jpg "Photoduino Shield 3.0 Eaglecad Schema")](../../../assets/images/shield3-schema.jpg)
 
@@ -125,17 +125,17 @@ You can download original [Eaglecad files](http://sourceforge.net/projects/photo
 </tr>
 <tr>
 <td style="text-align: center;" align="CENTER" height="19">2</td>
-<td align="LEFT">Resistor 91 ohms</td>
+<td align="LEFT">Resistor 91 ohms</td>
 <td align="LEFT"><a href="http://es.mouser.com/ProductDetail/KOA-Speer/CF1-4CT52R910J/?qs=/ha2pyFaduhcR7YWghnBNuo0mXvkXt37Ayewl/5ipvWpwq9Y7shN5Q==" target="_blank">mouser</a></td>
 </tr>
 <tr>
 <td style="text-align: center;" align="CENTER" height="19">1</td>
-<td align="LEFT">Resistor 1 Mohms</td>
+<td align="LEFT">Resistor 1 Mohms</td>
 <td align="LEFT"><a href="http://es.mouser.com/ProductDetail/KOA-Speer/CF1-4CT52R105J/?qs=/ha2pyFaduhcR7YWghnBNohs8vFPbHXcjiOznyFgWmwzA1EWcemcyw==" target="_blank">mouser</a></td>
 </tr>
 <tr>
 <td style="text-align: center;" align="CENTER" height="19">2</td>
-<td align="LEFT">Resistor 360 ohms</td>
+<td align="LEFT">Resistor 360 ohms</td>
 <td align="LEFT"><a href="http://es.mouser.com/ProductDetail/KOA-Speer/CF1-4CT52R361J/?qs=/ha2pyFaduhcR7YWghnBNhQaBJ4OB1eAK1R6V9MXIke1mGeBmVPbFQ==" target="_blank">mouser</a></td>
 </tr>
 <tr>
@@ -145,17 +145,17 @@ You can download original [Eaglecad files](http://sourceforge.net/projects/photo
 </tr>
 <tr>
 <td style="text-align: center;" align="CENTER" height="19">2</td>
-<td align="LEFT">Pinheader 6 pins</td>
+<td align="LEFT">Pinheader 6 pins</td>
 <td align="LEFT"><a href="http://es.mouser.com/ProductDetail/FCI/68000-206HLF/?qs=/ha2pyFaduj2kX7F/jLYs2HW5HRfwkSPElfDHhW8pDUS968GY0t3Vg==" target="_blank">mouser</a></td>
 </tr>
 <tr>
 <td style="text-align: center;" align="CENTER" height="19">2</td>
-<td align="LEFT">Pinheader 8 pins</td>
+<td align="LEFT">Pinheader 8 pins</td>
 <td align="LEFT"><a href="http://es.mouser.com/ProductDetail/FCI/68000-208HLF/?qs=/ha2pyFaduj2kX7F/jLYs5XWdw%252bThQi1r8BH/IpQaDnJmfb9wHxj3w==" target="_blank">mouser</a></td>
 </tr>
 <tr>
 <td style="text-align: center;" align="CENTER" height="19">1</td>
-<td align="LEFT">Pinheader 16 pins</td>
+<td align="LEFT">Pinheader 16 pins</td>
 <td align="LEFT"><a href="http://es.mouser.com/ProductDetail/FCI/68002-216HLF/?qs=/ha2pyFaduj2kX7F/jLYs4ygajQ5LxjHh%252baIBuQVvtvX3q9LUUXHnw==" target="_blank">mouser</a></td>
 </tr>
 <tr>
@@ -203,7 +203,7 @@ You can download original [Eaglecad files](http://sourceforge.net/projects/photo
 </tr>
 <tr>
 <td style="text-align: center;" align="CENTER" height="19">1</td>
-<td align="LEFT">LDR Light dependant resistor</td>
+<td align="LEFT">LDR Light dependant resistor</td>
 <td align="LEFT"><a href="http://es.farnell.com/excelitas-tech/vt90n2/ldr-series-vt900/dp/1652637" target="_blank">farnell</a></td>
 </tr>
 <tr>
@@ -218,17 +218,17 @@ You can download original [Eaglecad files](http://sourceforge.net/projects/photo
 </tr>
 <tr>
 <td style="text-align: center;" align="CENTER" height="19">1</td>
-<td align="LEFT">Heatsink tube 3/64&#8243;</td>
+<td align="LEFT">Heatsink tube 3/64&#8243;</td>
 <td align="LEFT"></td>
 </tr>
 <tr>
 <td style="text-align: center;" align="CENTER" height="19">1</td>
-<td align="LEFT">Heatsink tube 1/8&#8243;</td>
+<td align="LEFT">Heatsink tube 1/8&#8243;</td>
 <td align="LEFT"></td>
 </tr>
 <tr>
 <td style="text-align: center;" align="CENTER" height="19">1</td>
-<td align="LEFT">Heatsink tube 3/16&#8243;</td>
+<td align="LEFT">Heatsink tube 3/16&#8243;</td>
 <td align="LEFT"></td>
 </tr>
 <tr>
@@ -246,12 +246,12 @@ You can download original [Eaglecad files](http://sourceforge.net/projects/photo
 </tr>
 <tr>
 <td style="text-align: center;" align="CENTER" height="19">4</td>
-<td align="LEFT">Hex-Standoff M3x10mm</td>
+<td align="LEFT">Hex-Standoff M3x10mm</td>
 <td align="LEFT"><a href="http://es.farnell.com/ettinger/05-13-103/separador-m3x10-ni/dp/1466826?Ntt=1466826">farnell</a></td>
 </tr>
 <tr>
 <td style="text-align: center;" align="CENTER" height="19">4</td>
-<td align="LEFT">Hex-Standoff M3x16mm</td>
+<td align="LEFT">Hex-Standoff M3x16mm</td>
 <td align="LEFT"><a href="http://es.farnell.com/ettinger/05-13-163/separador-m3x16-ni/dp/1466736?Ntt=1466736">farnell</a></td>
 </tr>
 <tr>

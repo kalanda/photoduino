@@ -8,7 +8,7 @@ Photoduino has a LCD display and two buttons named as “BUTTON-A” and “BUTT
 
 ![](../../../assets/images/lcd-example.jpg "lcd-example")
 
-The **basic rule** of operation to navigate:
+The **basic rule** of operation to navigate:
 
 -   Click BUTTON-A is equivalent to increase or go up
 -   Hold BUTTON-A is always a way out of the current option

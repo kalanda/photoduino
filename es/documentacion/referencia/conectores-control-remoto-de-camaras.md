@@ -4,7 +4,7 @@ lang: es
 title: Conectores control remoto de cámaras
 ---
 
-En esta página puedes encontrar como conectar algunas cámaras a Photoduino, pero la mejor opción es comprar un cable para tu modelo de cámara. Aquí tienes unos enlaces para comprarlos.
+En esta página puedes encontrar como conectar algunas cámaras a Photoduino, pero la mejor opción es comprar un cable para tu modelo de cámara. Aquí tienes unos enlaces para comprarlos.
 
 -   [Canon EOS 50d 7d 5d 1ds](http://www.gadgetinfinity.com/cactus-v5-shutter-cable-for-canon-eos-50d-7d-5d-1ds.html)
 -   [Pentax, Samsung](http://www.gadgetinfinity.com/cactus-v5-shutter-cable-for-canon-pentax-samsung.html)
@@ -32,43 +32,43 @@ También puedes encontrar en la misma tienda los cables para conectar los flashe
 </thead>
 <tbody>
 <tr>
-<td> <img class="alignnone size-full wp-image-562" title="conector-C6" src="../../../../assets/images/conector-C6.jpg" alt="" width="90" height="94" /></td>
+<td> <img class="alignnone size-full wp-image-562" title="conector-C6" src="../../../../assets/images/conector-C6.jpg" alt="" width="90" height="94" /></td>
 <td style="text-align: center;">C6</td>
 <td>Canon, Contax, Pentax, Samsung</td>
 <td><img class="alignnone size-full wp-image-569" title="conector-C6-pinout" src="../../../../assets/images/conector-C6-pinout.jpg" alt="" width="314" height="94" /></td>
 </tr>
 <tr>
-<td> <img class="alignnone size-full wp-image-563" title="conector-C8" src="../../../../assets/images/conector-C8.jpg" alt="" width="90" height="94" /></td>
+<td> <img class="alignnone size-full wp-image-563" title="conector-C8" src="../../../../assets/images/conector-C8.jpg" alt="" width="90" height="94" /></td>
 <td style="text-align: center;">C8</td>
 <td>Canon</td>
-<td> <img class="alignnone size-full wp-image-570" title="conector-C8-pinout" src="../../../../assets/images/conector-C8-pinout.jpg" alt="" width="314" height="94" /></td>
+<td> <img class="alignnone size-full wp-image-570" title="conector-C8-pinout" src="../../../../assets/images/conector-C8-pinout.jpg" alt="" width="314" height="94" /></td>
 </tr>
 <tr>
-<td> <img class="alignnone size-full wp-image-564" title="conector-N6" src="../../../../assets/images/conector-N6.jpg" alt="" width="90" height="94" /></td>
+<td> <img class="alignnone size-full wp-image-564" title="conector-N6" src="../../../../assets/images/conector-N6.jpg" alt="" width="90" height="94" /></td>
 <td style="text-align: center;">N6</td>
 <td>Nikon</td>
 <td></td>
 </tr>
 <tr>
-<td> <img class="alignnone size-full wp-image-565" title="conector-N8" src="../../../../assets/images/conector-N8.jpg" alt="" width="90" height="94" /></td>
+<td> <img class="alignnone size-full wp-image-565" title="conector-N8" src="../../../../assets/images/conector-N8.jpg" alt="" width="90" height="94" /></td>
 <td style="text-align: center;">N8</td>
 <td>Nikon, Kodak, Fuji</td>
-<td> <img class="alignnone size-full wp-image-572" title="conector-N8-pinout" src="../../../../assets/images/conector-N8-pinout.jpg" alt="" width="314" height="94" /></td>
+<td> <img class="alignnone size-full wp-image-572" title="conector-N8-pinout" src="../../../../assets/images/conector-N8-pinout.jpg" alt="" width="314" height="94" /></td>
 </tr>
 <tr>
-<td> <img class="alignnone size-full wp-image-566" title="conector-N10" src="../../../../assets/images/conector-N10.jpg" alt="" width="90" height="94" /></td>
+<td> <img class="alignnone size-full wp-image-566" title="conector-N10" src="../../../../assets/images/conector-N10.jpg" alt="" width="90" height="94" /></td>
 <td style="text-align: center;">N10</td>
 <td>Nikon</td>
 <td></td>
 </tr>
 <tr>
-<td> <img class="alignnone size-full wp-image-567" title="conector-S6" src="../../../../assets/images/conector-S6.jpg" alt="" width="90" height="94" /></td>
+<td> <img class="alignnone size-full wp-image-567" title="conector-S6" src="../../../../assets/images/conector-S6.jpg" alt="" width="90" height="94" /></td>
 <td style="text-align: center;">S6</td>
 <td>Sony, Minolta</td>
 <td></td>
 </tr>
 <tr>
-<td> <img class="alignnone size-full wp-image-568" title="conector-O6" src="../../../../assets/images/conector-O6.jpg" alt="" width="90" height="94" /></td>
+<td> <img class="alignnone size-full wp-image-568" title="conector-O6" src="../../../../assets/images/conector-O6.jpg" alt="" width="90" height="94" /></td>
 <td style="text-align: center;">O6</td>
 <td>Olympus</td>
 <td><img class="alignnone size-full wp-image-573" title="conector-O6-pinout" src="../../../../assets/images/conector-O6-pinout.jpg" alt="" width="314" height="94" /></td>

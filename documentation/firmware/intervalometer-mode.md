@@ -10,9 +10,9 @@ This run mode is used to take pictures in configurable time intervals . You can 
 
 When you enter in this main menu option, you have 3 submenus.
 
--   **Config:** Define the config parameters of this mode used in the ”life cycle of execution” showed below.
--   **Run:** This option will start the run mode according to the ”Life cycle of execution”. For cancelling the execution, just press and hold one button until the LCD displays “Aborting…”
--   **Reset config:** This option will reset the config parameters of this run mode to the default values.
+-   **Config:** Define the config parameters of this mode used in the ”life cycle of execution” showed below.
+-   **Run:** This option will start the run mode according to the ”Life cycle of execution”. For cancelling the execution, just press and hold one button until the LCD displays “Aborting…”
+-   **Reset config:** This option will reset the config parameters of this run mode to the default values.
 
 ## Config parameters
 

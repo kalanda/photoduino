@@ -5,9 +5,9 @@ title: Photoduino Solenoid Valve Interface 1.0
 
 ![](../../../assets/images/IMG_4806.jpg "Photoduino Solenoid Valve Interface 1.0")
 
-Photoduino’s firmware version 0.10 was released to include the ability to control a solenoid valve and  automatically generate drops with Photoduino.
+Photoduino’s firmware version 0.10 was released to include the ability to control a solenoid valve and  automatically generate drops with Photoduino.
 
-Solenoid valves  are typically powered through 12VDC and have a high current consumption, so we need this new circuit to be connected to Photoduino’s DEVICE port so it allows the connection to a solenoid valve and a 12VDC power supply.
+Solenoid valves  are typically powered through 12VDC and have a high current consumption, so we need this new circuit to be connected to Photoduino’s DEVICE port so it allows the connection to a solenoid valve and a 12VDC power supply.
 
 The control of the valve is performed by a Mosfet IRL520 logic transistor and the circuit also includes a 1N4004 diode to prevent the reverse current that is accumulated in the coil.
 
@@ -43,7 +43,7 @@ The 12V needed to feed the solenoid valve can be supplied by the 8xAA (R6) batte
 </tr>
 <tr>
 <td style="text-align: center;" align="RIGHT" height="18">1</td>
-<td align="LEFT">1N4004 Diode</td>
+<td align="LEFT">1N4004 Diode</td>
 <td align="LEFT"><a href="http://es.mouser.com/ProductDetail/Fairchild-Semiconductor/1N4004/?qs=sGAEpiMZZMtbRapU8LlZD6Aoap19JQAxY2gML8gEYQU=" target="_blank">mouser</a></td>
 </tr>
 <tr>
@@ -78,7 +78,7 @@ The 12V needed to feed the solenoid valve can be supplied by the 8xAA (R6) batte
 </tr>
 <tr>
 <td style="text-align: center;" align="RIGHT" height="19">1</td>
-<td align="LEFT">50 ml syringe luer catheter without needle</td>
+<td align="LEFT">50 ml syringe luer catheter without needle</td>
 <td align="LEFT"><a href="http://www.totclinic.com/jeringas-sin-aguja/62-jeringas-sin-aguja-de-50-ml-luer-cateter.html" target="_blank">totclinic</a></td>
 </tr>
 <tr>
@@ -98,7 +98,7 @@ The 12V needed to feed the solenoid valve can be supplied by the 8xAA (R6) batte
 
 ## PCB Schematics
 
-\- [Download the Eaglecad files of the circuit](http://sourceforge.net/projects/photoduino/files/hardware/photoduino.solenoid.valve.interface.1.0.zip/download)
+\- [Download the Eaglecad files of the circuit](http://sourceforge.net/projects/photoduino/files/hardware/photoduino.solenoid.valve.interface.1.0.zip/download)
 
 ![](../../../assets/images/electrovalve-interface-schema-600x492.png "electrovalve-interface-schema")
 

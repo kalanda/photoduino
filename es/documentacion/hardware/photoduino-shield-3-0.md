@@ -25,13 +25,13 @@ title: Photoduino Shield 3.0
 
 ## Ficheros Eaglecad
 
-Puedes descargar los archivos originales en [formato Eaglecad](http://sourceforge.net/projects/photoduino/files/hardware/photoduino.shield.3.0.zip/download)  y también [el diseño de la caja](http://sourceforge.net/projects/photoduino/files/hardware/photoduino.case.1.0.zip/download)
+Puedes descargar los archivos originales en [formato Eaglecad](http://sourceforge.net/projects/photoduino/files/hardware/photoduino.shield.3.0.zip/download)  y también [el diseño de la caja](http://sourceforge.net/projects/photoduino/files/hardware/photoduino.case.1.0.zip/download)
 
 [![](../../../../assets/images/shield3-schema-600x403.jpg "Photoduino Shield 3.0 Eaglecad Schema")](../../../../assets/images/shield3-schema.jpg)
 
 [![](../../../../assets/images/shield3-board-600x386.jpg "Photoduino Shield 3.0 Eaglecad Board")](../../../../assets/images/shield3-board.jpg)
 
-## Instrucciones de montaje
+## Instrucciones de montaje
 
 -   [Instrucciones de montaje: La shield](instrucciones-de-montaje-la-shield/)
 -   [Instrucciones de montaje: Los sensores](instrucciones-de-montaje-los-sensores/)

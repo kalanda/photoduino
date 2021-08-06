@@ -330,6 +330,6 @@ title: Cameras shutterlag
 </tbody>
 </table>
 <ul>
-<li><strong>(?)</strong> For missing info <a href="http://www.imaging-resource.com/DIGCAM01.HTM" rel="nofollow" target="_blank">find your camera at this link</a> and go to the performance tab</li>
+<li><strong>(?)</strong> For missing info <a href="http://www.imaging-resource.com/DIGCAM01.HTM" rel="nofollow" target="_blank">find your camera at this link</a> and go to the performance tab</li>
 <li><a title="Camera remote connectors" href="../camera-remote-connectors/">Camera remote connectors reference</a></li>
 </ul>

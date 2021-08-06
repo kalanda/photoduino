@@ -10,10 +10,10 @@ Este modo de ejecución es usado para tomar fotografías basadas en la lectura d
 
 ## Opciones
 
-Cuando entres en esta opción del menú principal,  encontrarás las siguiente sub-opciones.
+Cuando entres en esta opción del menú principal,  encontrarás las siguiente sub-opciones.
 
--   **Config Disparo:** Define los parámetros de este modo usados en el “Ciclo de vida de ejecución”
--   **Config Gotas:** Solamente si el “Tipo de dispositivo” en la “[Configuración del sistema](../configuracion-de-sistema/ "Configuración de sistema")” es “Electroválvula”.
+-   **Config Disparo:** Define los parámetros de este modo usados en el “Ciclo de vida de ejecución”
+-   **Config Gotas:** Solamente si el “Tipo de dispositivo” en la “[Configuración del sistema](../configuracion-de-sistema/ "Configuración de sistema")” es “Electroválvula”.
 -   **Ejecutar:** Ejecuta el modo de acuerdo al “Ciclo de vida de ejecución”. Para cancelar la ejecución, mantén presionado uno de los dos botones hasta que en la pantalla aparezca “Cancelando…”
 -   **Borrar config:** Esta opción devolverá todos los parámetros de configuración del modo a sus valores por defecto.
 
@@ -122,9 +122,9 @@ Cuando entres en esta opción del menú principal,  encontrarás las siguiente 
 
 **FUNCIONALIDAD EXPERIMENTAL**
 
-El “Ciclo de vida de ejecución no muestra esta funcionalidad de “Gotas”, pero las gotas son generadas siempre antes de los bloques “Esperar al sensor”  en el diagrama.
+El “Ciclo de vida de ejecución no muestra esta funcionalidad de “Gotas”, pero las gotas son generadas siempre antes de los bloques “Esperar al sensor”  en el diagrama.
 
-Estos parámetros son usados solamente si una electroválvula está conectada al puerto DEVICE y  el tipo de dispositivo está configurado como “Electroválvula” en la “[Configuración del sistema](../configuracion-de-sistema/ "Configuración de sistema")“.
+Estos parámetros son usados solamente si una electroválvula está conectada al puerto DEVICE y  el tipo de dispositivo está configurado como “Electroválvula” en la “[Configuración del sistema](../configuracion-de-sistema/ "Configuración de sistema")“.
 
 <table>
 <thead>
@@ -183,7 +183,7 @@ Este modo está pensado para tomar fotografías iniciando el proceso por un sens
 
 ### Modo de disparo: Bulb previo
 
-En este modo, el sistema asume que tienes configurada tu cámara en modo BULB y podrás usar uno o dos flashes para realizar la foto en una habitación a oscuras. Usando este modo evitarás todos los retardos mecánicos producidos por la cámara y tomar las fotografías con mayor tiempo de respuesta y con el tiempo de exposición más corto, definido por la duración del destello del flash que estás usando.
+En este modo, el sistema asume que tienes configurada tu cámara en modo BULB y podrás usar uno o dos flashes para realizar la foto en una habitación a oscuras. Usando este modo evitarás todos los retardos mecánicos producidos por la cámara y tomar las fotografías con mayor tiempo de respuesta y con el tiempo de exposición más corto, definido por la duración del destello del flash que estás usando.
 
 ![](../../../../assets/images/es-sensor-shotting-prebulb-lifecicle.jpg "Modo disparo: Bulb previo")
 

@@ -3,7 +3,7 @@ layout: default
 title: Build instructions of solenoid valve interface
 ---
 
-Making this circuit is so easy. You need the components of course, but also you need some tools like soldering iron, tin, cutting pliers and a pair of screwdrivers (with flat and star tips).
+Making this circuit is so easy. You need the components of course, but also you need some tools like soldering iron, tin, cutting pliers and a pair of screwdrivers (with flat and star tips).
 
 **IS VERY IMPORTANT** know how to soldering well.[  
 Get this comic for easy learning "Soldering is Easy"](https://kalanda.github.io/photoduino/assets/pdf/FullSolderComic_EN.pdf)
@@ -14,15 +14,15 @@ Get this comic for easy learning "Soldering is Easy"](https://kalanda.github.io/
 
 ## Components
 
-First, you have to solder the 1ok resistor (brown, black and orange bands).  Has no polarity and is only one. In the PCB is masked as R2.
+First, you have to solder the 1ok resistor (brown, black and orange bands).  Has no polarity and is only one. In the PCB is masked as R2.
 
 ![](../../../../assets/images/IMG_4792.jpg "IMG_4792")
 
-Next step is solder the 1N4004 diode. It has a gray band at one end to indicate their polarity. You place it as shown in the next picture.
+Next step is solder the 1N4004 diode. It has a gray band at one end to indicate their polarity. You place it as shown in the next picture.
 
 ![](../../../../assets/images/IMG_4793.jpg "IMG_4793")
 
-Now you have to solder the MOSFET IRL520. It has polarity. You place it as shown in the next picture.
+Now you have to solder the MOSFET IRL520. It has polarity. You place it as shown in the next picture.
 
 ![](../../../../assets/images/IMG_4803.jpg "IMG_4803")
 
@@ -42,7 +42,7 @@ To connect the solenoid valve, first you have to solder to a couple of wires. So
 
 ![](../../../../assets/images/IMG_4809.jpg "IMG_4809")
 
-Take apart a couple of heat shrink tubes to isolate the connections later.
+Take apart a couple of heat shrink tubes to isolate the connections later.
 
 ![](../../../../assets/images/IMG_4812.jpg "IMG_4812")
 
@@ -60,7 +60,7 @@ Take apart a couple of heat shrink tubes to isolate the connections later.
 
 ## Solenoid valve and power supply connections
 
-IT IS VERY IMPORTANT. You must be very careful with the polarity of the power. Inthe picture you can see that the positive supply (red) is connected to “+12 v power” and the negative to “GND power”. If instead of the battery socket you are using a DC power supply, determine the polarity  using a multimeter.
+IT IS VERY IMPORTANT. You must be very careful with the polarity of the power. Inthe picture you can see that the positive supply (red) is connected to “+12 v power” and the negative to “GND power”. If instead of the battery socket you are using a DC power supply, determine the polarity  using a multimeter.
 
 ![](../../../../assets/images/IMG_48301.jpg "IMG_4830")
 
@@ -74,7 +74,7 @@ The connection is made by a RCA cable to the DEVICE port of Photoduino.
 
 ## Assemble example
 
-In the photo above you can see how to use the syringe as a reservoir of liquid using the plastic microtube to connect to the input of the solenoid. Although not included in the kit the other materials you can see int the photos, I put them as an example of how you can assemble the system.
+In the photo above you can see how to use the syringe as a reservoir of liquid using the plastic microtube to connect to the input of the solenoid. Although not included in the kit the other materials you can see int the photos, I put them as an example of how you can assemble the system.
 
 ![](../../../../assets/images/IMG_52411.jpg "IMG_5241")
 

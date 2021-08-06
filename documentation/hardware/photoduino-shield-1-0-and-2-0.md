@@ -7,8 +7,8 @@ title: Photoduino Shield 1.0 and 2.0
 
 “Photoduino Shield” is the heart of the Photoduino project. This is a PCB that fits over an Arduino board so that it takes all input and output lines as well the power pins. It has all the necessary electronic components and provides connectors to connect the camera, flashes, sensors and a LCD display with two buttons for user interaction.
 
--   [Photoduino Shield 1.0](http://sourceforge.net/projects/photoduino/files/hardware/photoduino.shield.1.0.zip/download) Is the best option to do at home because it is designed in a single layer.
--   [Photoduino Shield 2.0](http://sourceforge.net/projects/photoduino/files/hardware/photoduino.shield.2.0.zip/download) Is designed in 2 layers, making it more difficult to perform at home, but has better placement of the connectors and is a little smaller.
+-   [Photoduino Shield 1.0](http://sourceforge.net/projects/photoduino/files/hardware/photoduino.shield.1.0.zip/download) Is the best option to do at home because it is designed in a single layer.
+-   [Photoduino Shield 2.0](http://sourceforge.net/projects/photoduino/files/hardware/photoduino.shield.2.0.zip/download) Is designed in 2 layers, making it more difficult to perform at home, but has better placement of the connectors and is a little smaller.
 
 Both versions are fully compatible with the firmware and use the same components.
 

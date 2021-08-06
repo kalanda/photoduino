@@ -333,5 +333,5 @@ El retardo de obturador en inglés es “shutterlag”
 </tbody>
 </table>
 
--   **(?)** Si no existe información en esta tabla [encuentra tu cámara en este enlace](http://www.imaging-resource.com/DIGCAM01.HTM) y ve a la pestaña “Performance”
+-   **(?)** Si no existe información en esta tabla [encuentra tu cámara en este enlace](http://www.imaging-resource.com/DIGCAM01.HTM) y ve a la pestaña “Performance”
 -   [Referencia de conectores de control remoto de cámaras](../conectores-control-remoto-de-camaras/ "Conectores control remoto de cámaras")

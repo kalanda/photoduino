@@ -3,9 +3,9 @@ layout: default
 lang: es
 title: Instrucciones de montaje Solenoid Valve Interface
 ---
-El montaje de este circuito es muy sencillo. Para realizar el montaje necesitarás además de todos los componentes, un soldador, estaño, un alicate de corte y un par de destornilladores (punta plana y estrella).
+El montaje de este circuito es muy sencillo. Para realizar el montaje necesitarás además de todos los componentes, un soldador, estaño, un alicate de corte y un par de destornilladores (punta plana y estrella).
 
-**ES MUY IMPORTANTE** saber soldar correctamente.[Descárgate este comic para aprender a soldar facilmente “Soldar es fácil”](https://kalanda.github.io/photoduino/assets/pdf/FullSolderComic_ES.pdf)
+**ES MUY IMPORTANTE** saber soldar correctamente.[Descárgate este comic para aprender a soldar facilmente “Soldar es fácil”](https://kalanda.github.io/photoduino/assets/pdf/FullSolderComic_ES.pdf)
 
 ## La PCB
 
@@ -73,7 +73,7 @@ La conexión a se realiza mediante un cable RCA al puerto DEVICE de Photoduino.
 
 ## Ejemplo de montaje
 
-En la foto anterior puedes ver como usar la jeringa como deposito de liquido usando el microtubo de plastico para conectarla con la entrada de la electroválvula. Aunque no se incluyen en el kit el resto de materiales que puedes ver en las fotos, las pongo a modo de ejemplo de como puedes montar el sistema.
+En la foto anterior puedes ver como usar la jeringa como deposito de liquido usando el microtubo de plastico para conectarla con la entrada de la electroválvula. Aunque no se incluyen en el kit el resto de materiales que puedes ver en las fotos, las pongo a modo de ejemplo de como puedes montar el sistema.
 
 ![](../../../../../assets/images/IMG_52411.jpg "IMG_5241")
 

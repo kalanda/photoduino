@@ -9,7 +9,7 @@ Photoduino dispone de un LCD y de dos botones denominados como BOTON-A y BOTON-B
 
 ![](../../../../assets/images/lcd-example.jpg "lcd-example")
 
-La **regla básica** de funcionamiento de los dos botones para navegar es la siguiente:
+La **regla básica** de funcionamiento de los dos botones para navegar es la siguiente:
 
 -   Pulsar BOTON-A es equivalente a subir o incrementar
 -   Mantener pulsado BOTON-A es siempre la forma de salir de la opción actual
